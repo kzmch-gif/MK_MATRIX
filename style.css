@@ -1,0 +1,57 @@
+* {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+}
+
+body{
+    background: rgba(247, 241, 255, 0.52071) !important;
+}
+
+.nav-link-header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.2s all ease-in-out;
+}
+
+.nav-item {
+    align-self: center;
+}
+
+.item-nav {
+    margin: 0 20px;
+}
+
+.logotype-nav {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 29px;
+    text-align: center;
+    letter-spacing: 0.21em;
+    color: #000000;
+    padding: 0 30px;
+    text-decoration: none;
+    transition: 0.2s all ease-in-out;
+    position: relative;
+}
+
+.logotype-nav::before {
+    content: '';
+    position: absolute;
+    background-image: url(./img/stars.png);
+    width: 99%;
+    height: 193%;
+    background-size: cover;
+    left: 0px;
+    top: -45%;
+}
+
+.header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
