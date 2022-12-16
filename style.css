@@ -349,3 +349,65 @@ body {
     justify-content: center;
     width: 100% !important;
 }
+
+
+@media (max-width:769px) {
+    .calculate-planet-img {
+        width: 100%;
+    }
+
+    .row-auto-small {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .line {
+        border: 0.5px solid #000000;
+        width: 25px;
+        margin: 10px 0;
+    }
+
+    .span-social {
+        font-size: 15px;
+    }
+
+    .insta-pic {
+        width: 23px;
+    }
+
+    .nav-link-header {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .main-block {
+        padding-top: 120px;
+        background-image: url(./img/round_blur.png);
+        background-repeat: no-repeat;
+        height: 620px;
+        background-position: bottom;
+        background-size: 87%;
+    }
+
+    .another-type-img {
+        width: 23%;
+    }
+
+    .another-type-rose {
+        width: 37%;
+    }
+
+    .nav-link-header {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.08em;
+        color: #000000;
+        text-decoration: none;
+        transition: 0.2s all ease-in-out;
+    }
+}
