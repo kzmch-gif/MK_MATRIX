@@ -74,11 +74,11 @@ body {
 }
 
 .main-block {
-    padding-top: 110px;
+    padding-top: 120px;
     background-image: url(./img/round_blur.png);
     background-repeat: no-repeat;
-    height: 600px;
-    background-position: top;
+    height: 620px;
+    background-position: bottom;
     background-size: 45%;
 }
 
@@ -115,7 +115,7 @@ body {
     border-radius: 60px 0px;
     padding: 10px 20px 10px 35px;
     margin-right: 70px;
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 .full-matrix-choose-span {
@@ -203,7 +203,7 @@ body {
 }
 
 .calculation {
-    margin-bottom: 125px;
+    margin-bottom: 175px;
 }
 
 .alltypes-matrix-h1 {
@@ -243,7 +243,7 @@ body {
 }
 
 .alltypes-matrix {
-    margin-bottom: 125px;
+    margin-bottom: 155px;
 }
 
 .line {
@@ -264,7 +264,7 @@ body {
 }
 
 .when-need-matrix {
-    margin-bottom: 125px;
+    margin-bottom: 155px;
 }
 
 .row-auto-small {
@@ -301,4 +301,51 @@ body {
 
 .row-bottom-when-need {
     margin-top: 25px !important;
+}
+
+.soul-matrix-span {
+    position: absolute;
+    font-size: 11px;
+    width: 200px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    left: 20px;
+    top: 35px;
+}
+
+.contacts-h1 {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+    color: #000000;
+
+}
+
+.insta-pic {
+    width: 30px;
+}
+
+.row-contacts-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.col-3-center {
+    flex: 0 0 auto;
+    width: 20% !important;
+}
+
+.row-h1-contacts {
+    justify-content: center;
+    width: 100% !important;
 }
