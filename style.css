@@ -411,3 +411,139 @@ body {
         transition: 0.2s all ease-in-out;
     }
 }
+
+@media (max-width:426px) {
+    .free-calculation-h1 {
+        width: 100%;
+    }
+
+    .main-block-matrix {
+        width: 100%;
+        margin: auto;
+    }
+
+    .nav-pills {
+        justify-content: center;
+    }
+
+    .item-nav {
+        margin: 5px 10px;
+    }
+
+    .logotype_block {
+        margin-bottom: 20px;
+    }
+
+    .main-block {
+        padding-top: 170px;
+        background-image: url(./img/round_blur.png);
+        background-repeat: no-repeat;
+        height: 610px;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .main-block-matrix-h1 {
+        font-family: 'Montserrat Alternates';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 27px;
+        line-height: 34px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #000000;
+        width: 310px;
+        margin: 0 auto;
+    }
+
+    .partner-matrix-choose-span {
+        margin-left: 52%;
+        border: 0.75px solid #090909;
+        border-radius: 60px 0px;
+        padding: 10px 20px 10px 35px;
+        margin-right: 40px;
+        margin-top: 45px;
+    }
+
+
+    .nav-link-header {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+
+    .matrix-choose-span {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+    }
+
+    .full-matrix-choose-span {
+        border: 0.75px solid #090909;
+        border-radius: 60px 0px;
+        padding: 10px 23px 10px 27px;
+        margin-right: 47%;
+        margin-left: 11%;
+        margin-top: -53px;
+    }
+
+    .child-matrix-choose-span {
+        border: 0.75px solid #090909;
+        border-radius: 60px 0px;
+        padding: 10px 20px 10px 35px;
+        margin-right: 25%;
+        margin-left: 34%;
+        margin-top: 17px;
+    }
+
+    .logotype_block {
+        /* margin-bottom: 14px; */
+        position: absolute;
+        top: 18%;
+    }
+
+    .calculate-planet-img {
+        width: 100%;
+        display: none;
+    }
+
+    .another-type-img {
+        width: 13%;
+        margin-bottom: 30px;
+    }
+
+    .another-type-rose {
+        width: 24%;
+    }
+
+    .alltypes-matrix {
+        margin-bottom: 125px;
+    }
+
+    .row-auto-small {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: unset;
+    }
+
+    .row-auto-small-reverse {
+        justify-content: center;
+    }
+
+
+    .insta-pic {
+        width: 40px;
+    }
+
+    .when-need-matrix {
+        margin-bottom: 155px;
+        padding: 0 20px;
+    }
+
+    .calculation {
+        padding: 0 20px;
+    }
+}
