@@ -3,7 +3,7 @@
     font-style: normal;
 }
 
-body{
+body {
     background: rgba(247, 241, 255, 0.52071) !important;
 }
 
@@ -54,4 +54,79 @@ body{
 .header {
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+.main-block-matrix-h1 {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 33px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+    width: 315px;
+    margin: 0 auto;
+}
+
+.main-block {
+    padding-top: 110px;
+    background-image: url(./img/round_blur.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: top;
+    background-size: 45%;
+}
+
+.main-block-matrix-p {
+    font-family: 'Montserrat';
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.main-block-matrix {
+    width: 550px;
+    margin: auto;
+}
+
+.matrix-choose-span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+
+.partner-matrix-choose-span{
+    margin-left: 60%;
+    border: 0.75px solid #090909;
+    border-radius: 60px 0px;
+    padding: 10px 20px 10px 35px;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+.full-matrix-choose-span{
+    border: 0.75px solid #090909;
+    border-radius: 60px 0px;
+    padding: 10px 20px 10px 35px;
+    margin-right: 54%;
+    margin-left: 10%;
+}
+
+.child-matrix-choose-span{
+    border: 0.75px solid #090909;
+    border-radius: 60px 0px;
+    padding: 10px 20px 10px 35px;
+    margin-right: 25%;
+    margin-left: 45%;
+    margin-top: 10px;
 }
