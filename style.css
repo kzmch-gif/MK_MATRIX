@@ -245,3 +245,60 @@ body {
 .alltypes-matrix {
     margin-bottom: 125px;
 }
+
+.line {
+    border: 0.5px solid #000000;
+    width: 25px;
+}
+
+.span-colauto-when {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px !important;
+    letter-spacing: 0.06em;
+
+    color: #000000;
+    width: 150px;
+}
+
+.when-need-matrix {
+    margin-bottom: 125px;
+}
+
+.row-auto-small {
+    align-items: center;
+    display: flex;
+}
+
+.col-autoo {
+    flex: 0 0 auto;
+    width: 150px;
+}
+
+.col-autoo1 {
+    flex: 0 0 auto;
+    width: auto;
+    margin-right: 10px;
+}
+
+.when-need-matrix-h1 {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    width: 350px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.row-auto-small-reverse {
+    justify-content: flex-end;
+}
+
+.row-bottom-when-need {
+    margin-top: 25px !important;
+}
