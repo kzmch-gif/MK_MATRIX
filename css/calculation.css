@@ -1,0 +1,129 @@
+* {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+}
+
+body {
+    background: linear-gradient(194.62deg, #FFBFB1 0.24%, rgba(224, 201, 253, 0.699902) 29.46%, rgba(255, 227, 248, 0.47594) 63.12%, rgba(255, 116, 191, 0.49) 82.99%, rgba(179, 136, 236, 0.71) 97.6%), no-repeat;
+    background-repeat: no-repeat;
+
+}
+
+.nav-link-header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.2s all ease-in-out;
+}
+
+.nav-item {
+    align-self: center;
+}
+
+.item-nav {
+    margin: 0 20px;
+}
+
+.logotype-nav {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 29px;
+    text-align: center;
+    letter-spacing: 0.21em;
+    color: #000000;
+    padding: 0 30px;
+    text-decoration: none;
+    transition: 0.2s all ease-in-out;
+    position: relative;
+}
+
+.logotype-nav::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/stars.png);
+    width: 99%;
+    height: 193%;
+    background-size: cover;
+    left: 0px;
+    top: -45%;
+}
+
+.header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.soul-matrix-span {
+    position: absolute;
+    font-size: 11px;
+    width: 200px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    left: 20px;
+    top: 35px;
+}
+
+.h1-result {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 300;
+    width: 340px;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.h3-result-info {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 30px;
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+
+.col-6-result-row-info {
+    align-self: center;
+}
+
+.result-name-span {
+    font-family: 'Montserrat';
+    font-style: normal;
+
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    color: #000000;
+
+}
+
+.result-data-span {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    color: #000000;
+
+}
+
+.name-info-data {
+    padding: 10px 30px 0px 35px;
+    width: 191px;
+    height: 45px;
+    border: 0.5px solid #090909;
+    border-radius: 60px 0px;
+
+}
+
+.h1-result-block{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}

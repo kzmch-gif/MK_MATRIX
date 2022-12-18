@@ -5,10 +5,6 @@
 
 body {
     background: linear-gradient(195.85deg, rgba(255, 181, 157, 0.52071) 0.57%, rgba(229, 214, 255, 0.52071) 31.73%, rgba(255, 255, 255, 0.52071) 53.46%, rgba(176, 198, 255, 0.52071) 77.18%, rgba(82, 193, 255, 0.52071) 87.28%);
-
-
-
-
 }
 
 .nav-link-header {
@@ -47,7 +43,7 @@ body {
 .logotype-nav::before {
     content: '';
     position: absolute;
-    background-image: url(./img/stars.png);
+    background-image: url(../img/stars.png);
     width: 99%;
     height: 193%;
     background-size: cover;
@@ -75,7 +71,7 @@ body {
 
 .main-block {
     padding-top: 120px;
-    background-image: url(./img/round_blur.png);
+    background-image: url(../img/round_blur.png);
     background-repeat: no-repeat;
     height: 620px;
     background-position: bottom;
@@ -385,7 +381,7 @@ body {
 
     .main-block {
         padding-top: 120px;
-        background-image: url(./img/round_blur.png);
+        background-image: url(../img/round_blur.png);
         background-repeat: no-repeat;
         height: 620px;
         background-position: bottom;
@@ -436,7 +432,7 @@ body {
 
     .main-block {
         padding-top: 170px;
-        background-image: url(./img/round_blur.png);
+        background-image: url(../img/round_blur.png);
         background-repeat: no-repeat;
         height: 610px;
         background-position: center;
