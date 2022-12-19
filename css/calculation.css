@@ -115,15 +115,229 @@ body {
 }
 
 .name-info-data {
-    padding: 10px 30px 0px 35px;
+    padding: 7px 30px 10px 35px;
     width: 191px;
-    height: 45px;
+    height: 40px;
     border: 0.5px solid #090909;
     border-radius: 60px 0px;
 
 }
 
-.h1-result-block{
+.h1-result-block {
     margin-bottom: 50px;
     margin-top: 50px;
+}
+
+.h1-map-health {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 43px;
+    letter-spacing: 0.1em;
+    color: #000000;
+
+}
+
+.span-name-top-map {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 0.08em;
+    color: #000000;
+
+}
+
+.col-md-3-map {
+    flex: 0 0 auto;
+    width: auto !important;
+
+}
+
+.table-map-health-block {
+    border-bottom: 0.75px solid black;
+    width: fit-content;
+    padding: 5px 0;
+    border-top: 0.75px solid black;
+    margin-bottom: 10px;
+}
+
+.col-md-3-map-name {
+    margin-right: 10px;
+}
+
+.chacr-name-span-row {
+    font-size: 14px;
+}
+
+
+.number-col-colour {
+    background-color: #9A7EE9;
+    border-radius: 50%;
+    padding: 0px 10px !important;
+}
+
+.row-name-chacr {
+    align-items: center;
+}
+
+.row-center-table-map {
+    margin-left: 0 !important;
+}
+
+.col-number {
+    align-self: center;
+}
+
+.number-row-span {
+    font-size: 14px;
+}
+
+
+.col-name-chacr {
+    padding-left: 0px !important;
+    margin-left: 8px;
+}
+
+.row-center-table-map {
+    margin-bottom: 10px;
+}
+
+.colour-2 {
+    background-color: #7E9CE9;
+}
+
+.colour-3 {
+    background-color: #7ECFE9;
+}
+
+.colour-4 {
+    background-color: #7EE996;
+}
+
+.colour-5 {
+    background-color: #E9DE7E;
+}
+
+.colour-6 {
+    background-color: #E9B17E;
+}
+
+.colour-7 {
+    background-color: #E97E7E;
+}
+
+
+
+.col-number1-span {
+    padding-left: 11px;
+}
+
+.col-number2-span {
+    padding-left: 45px;
+}
+
+.col-number3-span {
+    padding-left: 45px;
+}
+
+
+
+
+.col-number1-span2 {
+    padding-left: 37px;
+}
+
+.col-number2-span2 {
+    padding-left: 45px;
+}
+
+.col-number3-span2 {
+    padding-left: 45px;
+}
+
+
+.col-number1-span3 {
+    padding-left: 26px;
+}
+
+.col-number2-span3 {
+    padding-left: 45px;
+}
+
+.col-number3-span3 {
+    padding-left: 45px;
+}
+
+
+.col-number1-span4 {
+    padding-left: 17px;
+}
+
+.col-number2-span4 {
+    padding-left: 45px;
+}
+
+.col-number3-span4 {
+    padding-left: 45px;
+}
+
+
+.col-number1-span5 {
+    padding-left: 15px;
+}
+
+.col-number2-span5 {
+    padding-left: 45px;
+}
+
+.col-number3-span5 {
+    padding-left: 45px;
+}
+
+
+.col-number1-span6 {
+    padding-left: 0px;
+}
+
+.col-number2-span6 {
+    padding-left: 45px;
+}
+
+.col-number3-span6 {
+    padding-left: 45px;
+}
+
+.col-number6 {
+    padding-left: 0 !important;
+}
+
+
+
+.col-number1-span7 {
+    padding-left: 0px;
+}
+
+.col-number2-span7 {
+    padding-left: 45px;
+}
+
+.col-number3-span7 {
+    padding-left: 45px;
+}
+
+
+
+.col-number1-span0 {
+    padding-left: 22px;
+}
+
+.col-number2-span0 {
+    padding-left: 45px;
+}
+
+.col-number3-span0 {
+    padding-left: 45px;
 }
