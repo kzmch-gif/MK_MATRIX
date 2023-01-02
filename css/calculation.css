@@ -535,13 +535,13 @@ body {
 }
 
 .matrix-diagram__circle.-position-p2 {
-    top: 23%;
-    right: 23%;
+    top: 305px;
+    right: 255px;
 }
 
 .matrix-diagram__circle.-position-p3 {
-    bottom: 27.8%;
-    left: 27.8%;
+    top: 312px;
+    right: 224px;
 }
 
 .matrix-diagram__circle.-position-p4 {
@@ -566,12 +566,12 @@ body {
 
 .matrix-diagram__circle.-position-s3 {
     bottom: 152px;
-    right: 152px;
+    right: 154px;
 }
 
 .matrix-diagram__circle.-position-s4 {
     bottom: 185px;
-    right: 185px;
+    right: 188px;
 }
 
 .matrix-diagram__circle.-position-s5 {
@@ -585,13 +585,13 @@ body {
 }
 
 .matrix-diagram__circle.-position-x1 {
-    bottom: 26.6%;
-    right: 40.7%;
+    bottom: 27.6%;
+    right: 39.9%;
 }
 
 .matrix-diagram__circle.-position-x2 {
-    bottom: 40.6%;
-    right: 26.6%;
+    bottom: 40.9%;
+    right: 27.6%;
 }
 
 
@@ -665,14 +665,14 @@ body {
 
 .matrix-diagram__number {
     position: absolute;
-    font-size: 16px;
+    font-size: 13px;
     z-index: 10;
     min-width: 14px;
     text-align: center;
 }
 
 .matrix-diagram__number.-bold {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .matrix-diagram__number.-position-b8 {
