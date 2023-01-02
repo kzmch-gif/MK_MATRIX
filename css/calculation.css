@@ -354,9 +354,7 @@ body {
     width: 110%;
 }
 
-.col-matrix {
-    margin-left: 18%;
-}
+
 
 
 
@@ -1114,4 +1112,36 @@ body {
 .schemeBlock {
     position: relative;
 
+}
+
+.m-p-round {
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-round {
+    display: flex;
+    width: max-content;
+    margin: 0;
+}
+
+.men-h4-program {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+
+.mens-program {
+    margin-top: 40px;
+    margin-bottom: 5px;
 }
