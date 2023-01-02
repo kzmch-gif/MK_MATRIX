@@ -350,11 +350,11 @@ body {
     align-self: center;
 }
 
-.matrix-block-ellipse{
+.matrix-block-ellipse {
     width: 110%;
 }
 
-.col-matrix{
+.col-matrix {
     margin-left: 18%;
 }
 
@@ -370,7 +370,8 @@ body {
     width: 680px;
     max-width: 100%;
 }
-.schemeBlock img{
+
+.schemeBlock img {
     display: block;
     max-width: 100%;
     width: 655px;
@@ -390,121 +391,127 @@ body {
     line-height: .8;
     padding-bottom: 1%;
     text-align: center;
-    transition: color 0.3s,background-color 0.3s,border-color 0.3s;
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s;
 }
 
 .matrix-diagram__circle.-position-a {
-    top: 50%;
-    left: 3.9%;
-    transform: translate(0,-50%);
+    top: 325px;
+    left: 25px;
+    transform: translate(0, -50%);
 }
 
 .matrix-diagram__circle.-position-a1 {
-    top: 50%;
-    left: 18.4%;
-    transform: translate(0,-50%);
+    top: 325px;
+    left: 128px;
+    transform: translate(0, -50%);
 }
 
 .matrix-diagram__circle.-position-a2 {
-    top: 50%;
-    left: 12%;
-    transform: translate(0,-50%);
+    top: 325px;
+    left: 83px;
+    transform: translate(0, -50%);
 }
 
 .matrix-diagram__circle.-position-a3 {
     top: 50%;
     left: 32.4%;
-    transform: translate(0,-50%);
+    transform: translate(0, -50%);
 }
 
 .matrix-diagram__circle.-position-b {
-    top: 3.9%;
-    left: 50%;
-    transform: translate(-50%,0);
+    top: 28px;
+    left: 325px;
+    transform: translate(-50%, 0);
 }
 
 .matrix-diagram__circle.-position-b1 {
-    top: 19.5%;
-    left: 50%;
-    transform: translate(-50%,0);
+    top: 131px;
+    left: 325px;
+    transform: translate(-50%, 0);
 }
 
 .matrix-diagram__circle.-position-b2 {
-    top: 13.1%;
-    left: 50%;
-    transform: translate(-50%,0);
+    top: 86px;
+    left: 325px;
+    transform: translate(-50%, 0);
 }
 
 .matrix-diagram__circle.-position-b3 {
     top: 32.5%;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
 }
 
 .matrix-diagram__circle.-position-a1b1 {
-    top: 29.9%;
-    left: 29.9%;
-    transform: translate(-50%,-50%);
+    top: 198px;
+    left: 198px;
+    transform: translate(-50%, -50%);
+}
+
+.matrix-diagram__circle.-position-a2b2 {
+    top: 171px;
+    left: 171px;
+    transform: translate(-50%, -50%);
 }
 
 .matrix-diagram__circle.-position-c1 {
     top: 50.1%;
     right: 19.5%;
-    transform: translate(0,-50%);
+    transform: translate(0, -50%);
 }
 
 .matrix-diagram__circle.-position-c {
-    top: 50.1%;
-    right: 4%;
-    transform: translate(0,-50%);
+    top: 325px;
+    right: 30px;
+    transform: translate(0, -50%);
 }
 
 .matrix-diagram__circle.-position-c1 {
-    top: 50.1%;
-    right: 18.5%;
-    transform: translate(0,-50%);
+    top: 325px;
+    right: 132px;
+    transform: translate(0, -50%);
 }
 
 .matrix-diagram__circle.-position-c2 {
-    top: 50.1%;
-    right: 12.1%;
-    transform: translate(0,-50%);
+    top: 325px;
+    right: 87px;
+    transform: translate(0, -50%);
 }
 
 .matrix-diagram__circle.-position-d {
-    bottom: 3.9%;
-    left: 50%;
-    transform: translate(-50%,0);
+    bottom: 32px;
+    left: 325px;
+    transform: translate(-50%, 0);
 }
 
 .matrix-diagram__circle.-position-d1 {
-    bottom: 18.5%;
-    left: 50%;
-    transform: translate(-50%,0);
+    bottom: 134px;
+    left: 325px;
+    transform: translate(-50%, 0);
 }
 
 .matrix-diagram__circle.-position-d2 {
-    bottom: 12.1%;
-    left: 50%;
-    transform: translate(-50%,0);
+    bottom: 89px;
+    left: 325px;
+    transform: translate(-50%, 0);
 }
 
 .matrix-diagram__circle.-position-e {
     top: 50%;
     left: 49.9%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 .matrix-diagram__circle.-position-e1 {
     top: 50%;
     right: 39.2%;
-    transform: translate(0,-50%);
+    transform: translate(0, -50%);
 }
 
 .matrix-diagram__circle.-position-e2 {
     top: 50%;
     right: 34.7%;
-    transform: translate(0,-50%);
+    transform: translate(0, -50%);
 }
 
 .matrix-diagram__circle.-position-f {
@@ -518,8 +525,8 @@ body {
 }
 
 .matrix-diagram__circle.-position-y {
-    bottom: 15.9%;
-    right: 16.3%;
+    bottom: 110px;
+    right: 110px;
 }
 
 .matrix-diagram__circle.-position-p1 {
@@ -553,18 +560,23 @@ body {
 }
 
 .matrix-diagram__circle.-position-s2 {
-    top: 23%;
-    left: 23%;
+    top: 459px;
+    left: 145px;
 }
 
 .matrix-diagram__circle.-position-s3 {
-    bottom: 23%;
-    right: 23%;
+    bottom: 152px;
+    right: 152px;
 }
 
 .matrix-diagram__circle.-position-s4 {
-    bottom: 27.8%;
-    right: 27.8%;
+    bottom: 185px;
+    right: 185px;
+}
+
+.matrix-diagram__circle.-position-s5 {
+    bottom: 185px;
+    left: 177px;
 }
 
 .matrix-diagram__circle.-position-x {
@@ -584,22 +596,22 @@ body {
 
 
 .matrix-diagram__circle.-size-lg {
-    width: 55px;
-    height: 55px;
+    width: 58.5px;
+    height: 58.5px;
     font-size: 30px;
     padding: 0;
 }
 
 .matrix-diagram__circle.-size-md {
-    width: 6.4%;
-    height: 6.4%;
+    width: 45px;
+    height: 45px;
     font-size: 20px;
     padding: 0;
 }
 
 .matrix-diagram__circle.-size-sm {
-    width: 4.572%;
-    height: 4.572%;
+    width: 32px;
+    height: 32px;
     font-size: 14px;
     padding: 0;
 }
@@ -648,6 +660,7 @@ body {
     background-color: #fff;
     border-color: #222831;
     color: #222831;
+    border: 1.25px solid black;
 }
 
 .matrix-diagram__number {
@@ -943,8 +956,20 @@ body {
     left: 42%;
 }
 
+.-position-g1a1 {
+    top: 168px;
+    right: 129px;
+    transform: translate(-50%, -50%);
+}
 
-@media only screen and (min-width: 400px){
+.-position-d1g1 {
+    top: 196px;
+    right: 168px;
+    transform: translate(-50%, -50%);
+}
+
+
+@media only screen and (min-width: 400px) {
     .matrix-diagram__number.-position-f4 {
         top: 21.1%;
         left: 11.1%;
@@ -1088,5 +1113,5 @@ body {
 
 .schemeBlock {
     position: relative;
-  
+
 }
