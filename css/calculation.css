@@ -1145,3 +1145,56 @@ body {
     margin-top: 40px;
     margin-bottom: 5px;
 }
+
+.result{
+    margin-bottom: 100px;
+}
+
+.contacts-h1{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+
+.contacts-h1 {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+    color: #000000;
+
+}
+
+.insta-pic {
+    width: 30px;
+}
+
+.row-contacts-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.col-3-center {
+    flex: 0 0 auto;
+    width: 20% !important;
+}
+
+.row-h1-contacts {
+    justify-content: center;
+    width: 100% !important;
+}
