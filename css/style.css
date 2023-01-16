@@ -543,3 +543,15 @@ body {
         padding: 0 20px;
     }
 }
+
+.man-label {
+    font-size: 14px;
+}
+
+.woman-label {
+    font-size: 14px;
+}
+
+.form-sex-block {
+    margin-bottom: 10px;
+}
