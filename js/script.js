@@ -1,3 +1,7 @@
+// Маска ввода
+
+//сделать проверку на валидацию
+
 let button_submit = document.getElementById("fsubmit");
 
 function someFunc() {
@@ -5,7 +9,7 @@ function someFunc() {
     let dataBirth = document.getElementById("dataBirth").value;
     let male = document.querySelector('input[name="male"]:checked').value;
 
-    debugger;
+
     //получаем первый символ день
     let a = Number(dataBirth[0]);
     let b = Number(dataBirth[1]);
@@ -34,6 +38,8 @@ function someFunc() {
         alert('Ви ввели недійсний місяць')
         return 0;
     }
+
+
     //получаем год
     let year_1 = Number(dataBirth[6]);
     let year_2 = Number(dataBirth[7]);
@@ -41,14 +47,20 @@ function someFunc() {
     let year_4 = Number(dataBirth[9]);
 
     let year = year_1 + year_2 + year_3 + year_4;
-    debugger;
-    alert(day);
-    alert(month);
-    alert(year);
 
-    alert(firstName);
-    alert(male);
+    //проверка на число больше 22 
+    if (year > 22) {
+        //получаем первый и второй символ года
+    let a_year = year[0];
+    let b_year = year[1];
 
+        year = a_year + b_year;
+    } 
+
+    //засовываем данные на след стр
+    localStorage.setItem("day", day);
+    localStorage.setItem("month", month);
+    localStorage.setItem("year", year);
 
 }
 button_submit.onclick = someFunc;
