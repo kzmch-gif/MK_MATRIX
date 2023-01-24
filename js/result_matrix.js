@@ -243,141 +243,6 @@ document.getElementById("chL_2").innerHTML = chL_2_res;
 
 
 
-//ЗОНА МАМЫ 
-let wR_1 = document.getElementById("wR_1");
-wR_1 = tT_1 + moneyR_1;
-
-wR_1_str = String(wR_1);
-wR_1_strA = wR_1_str[0];
-wR_1_strB = wR_1_str[1];
-
-//ПРОВЕРКА на число > 22
-if (wR_1 > 22) {
-    let wR_1_A_new = Number(wR_1_strA);
-    let wR_1_B_new = Number(wR_1_strB);
-    wR_1 = wR_1_A_new + wR_1_B_new;
-} else {
-    document.getElementById("wR_1").innerHTML = wR_1;
-}
-let wR_1_res = wR_1;
-
-//выводим на стр
-document.getElementById("wR_1").innerHTML = wR_1_res;
-
-
-//Мама справа третье
-let wR_3 = document.getElementById("wR_3");
-wR_3 = comfort + wR_1 + comfort;
-
-wR_3_str = String(wR_3);
-wR_3_strA = wR_3_str[0];
-wR_3_strB = wR_3_str[1];
-
-//ПРОВЕРКА на число > 22
-if (wR_3 > 22) {
-    let wR_3_A_new = Number(wR_3_strA);
-    let wR_3_B_new = Number(wR_3_strB);
-    wR_3 = wR_3_A_new + wR_3_B_new;
-} else {
-    document.getElementById("wR_3").innerHTML = wR_3;
-}
-let wR_3_res = wR_3;
-
-//выводим на стр
-document.getElementById("wR_3").innerHTML = wR_3_res;
-
-
-
-//Мама снизу первое
-let wB_1 = document.getElementById("wB_1");
-wB_1 = chL_1 + karmaB1;
-
-wB_1_str = String(wB_1);
-wB_1_strA = wB_1_str[0];
-wB_1_strB = wB_1_str[1];
-
-//ПРОВЕРКА на число > 22
-if (wB_1 > 22) {
-    let wB_1_A_new = Number(wB_1_strA);
-    let wB_1_B_new = Number(wB_1_strB);
-    wB_1 = wB_1_A_new + wB_1_B_new;
-} else {
-    document.getElementById("wB_1").innerHTML = wB_1;
-}
-let wB_1_res = wB_1;
-
-//выводим на стр
-document.getElementById("wB_1").innerHTML = wB_1_res;
-
-
-//Мама справа среденее
-let wR_2 = document.getElementById("wR_2");
-wR_2 = wR_3 + wR_1;
-
-wR_2_str = String(wR_2);
-wR_2_strA = wR_2_str[0];
-wR_2_strB = wR_2_str[1];
-
-//ПРОВЕРКА на число > 22
-if (wR_2 > 22) {
-    let wR_2_A_new = Number(wR_2_strA);
-    let wR_2_B_new = Number(wR_2_strB);
-    wR_2 = wR_2_A_new + wR_2_B_new;
-} else {
-    document.getElementById("wR_2").innerHTML = wR_2;
-}
-let wR_2_res = wR_2;
-
-//выводим на стр
-document.getElementById("wR_2").innerHTML = wR_2_res;
-
-
-//Мама снизу третье
-let wB_3 = document.getElementById("wB_3");
-wB_3 = wB_1 + comfort + comfort;
-
-wB_3_str = String(wB_3);
-wB_3_strA = wB_3_str[0];
-wB_3_strB = wB_3_str[1];
-
-//ПРОВЕРКА на число > 22
-if (wB_3 > 22) {
-    let wB_3_A_new = Number(wB_3_strA);
-    let wB_3_B_new = Number(wB_3_strB);
-    wB_3 = wB_3_A_new + wB_3_B_new;
-} else {
-    document.getElementById("wB_3").innerHTML = wB_3;
-}
-let wB_3_res = wB_3;
-
-//выводим на стр
-document.getElementById("wB_3").innerHTML = wB_3_res;
-
-
-
-//Мама снизу второе
-let wB_2 = document.getElementById("wB_2");
-wB_2 = wB_3 + wB_1;
-
-wB_2_str = String(wB_2);
-wB_2_strA = wB_2_str[0];
-wB_2_strB = wB_2_str[1];
-
-//ПРОВЕРКА на число > 22
-if (wB_2 > 22) {
-    let wB_2_A_new = Number(wB_2_strA);
-    let wB_2_B_new = Number(wB_2_strB);
-    wB_2 = wB_2_A_new + wB_2_B_new;
-} else {
-    document.getElementById("wB_2").innerHTML = wB_2;
-}
-let wB_2_res = wB_2;
-
-//выводим на стр
-document.getElementById("wB_2").innerHTML = wB_2_res;
-
-
-
 //ЗОНА ПАПЫ
 let mT_1 = document.getElementById("mT_1");
 mT_1 = day + month;
@@ -400,50 +265,6 @@ let mT_1_res = mT_1;
 document.getElementById("mT_1").innerHTML = mT_1_res;
 
 
-//Зона папы 3
-let mT_3 = document.getElementById("mT_3");
-mT_3 = mT_1 + comfort + comfort;
-
-mT_3_str = String(mT_3);
-mT_3_strA = mT_3_str[0];
-mT_3_strB = mT_3_str[1];
-
-//ПРОВЕРКА на число > 22
-if (mT_3 > 22) {
-    let mT_3_A_new = Number(mT_3_strA);
-    let mT_3_B_new = Number(mT_3_strB);
-    mT_3 = mT_3_A_new + mT_3_B_new;
-} else {
-    document.getElementById("mT_3").innerHTML = mT_3;
-}
-let mT_3_res = mT_3;
-
-//выводим на стр
-document.getElementById("mT_3").innerHTML = mT_3_res;
-
-
-//Зона папы 3
-let mT_2 = document.getElementById("mT_2");
-mT_2 = mT_3 + mT_1;
-
-mT_2_str = String(mT_2);
-mT_2_strA = mT_2_str[0];
-mT_2_strB = mT_2_str[1];
-
-//ПРОВЕРКА на число > 22
-if (mT_2 > 22) {
-    let mT_2_A_new = Number(mT_2_strA);
-    let mT_2_B_new = Number(mT_2_strB);
-    mT_2 = mT_2_A_new + mT_2_B_new;
-} else {
-    document.getElementById("mT_2").innerHTML = mT_2;
-}
-let mT_2_res = mT_2;
-
-//выводим на стр
-document.getElementById("mT_2").innerHTML = mT_2_res;
-
-
 
 let mB_1 = document.getElementById("mB_1");
 mB_1 = moneyR_1 + karmaB1;
@@ -464,51 +285,6 @@ let mB_1_res = mB_1;
 
 //выводим на стр
 document.getElementById("mB_1").innerHTML = mB_1_res;
-
-
-//Зона папы низ третий
-let mB_3 = document.getElementById("mB_3");
-mB_3 = comfort + mB_1 + comfort;
-
-mB_3_str = String(mB_3);
-mB_3_strA = mB_3_str[0];
-mB_3_strB = mB_3_str[1];
-
-//ПРОВЕРКА на число > 22
-if (mB_3 > 22) {
-    let mB_3_A_new = Number(mB_3_strA);
-    let mB_3_B_new = Number(mB_3_strB);
-    mB_3 = mB_3_A_new + mB_3_B_new;
-} else {
-    document.getElementById("mB_3").innerHTML = mB_3;
-}
-let mB_3_res = mB_3;
-
-//выводим на стр
-document.getElementById("mB_3").innerHTML = mB_3_res;
-
-
-
-//Зона папы низ среднее
-let mB_2 = document.getElementById("mB_2");
-mB_2 = mB_1 + mB_3;
-
-mB_2_str = String(mB_2);
-mB_2_strA = mB_2_str[0];
-mB_2_strB = mB_2_str[1];
-
-//ПРОВЕРКА на число > 22
-if (mB_2 > 22) {
-    let mB_2_A_new = Number(mB_2_strA);
-    let mB_2_B_new = Number(mB_2_strB);
-    mB_2 = mB_2_A_new + mB_2_B_new;
-} else {
-    document.getElementById("mB_2").innerHTML = mB_2;
-}
-let mB_2_res = mB_2;
-
-//выводим на стр
-document.getElementById("mB_2").innerHTML = mB_2_res;
 
 
 
@@ -627,9 +403,58 @@ document.getElementById("best_money").innerHTML = best_money_res;
 
 
 
+
+//Мама снизу первое
+let wB_1 = document.getElementById("wB_1");
+wB_1 = chL_1 + karmaB1;
+
+wB_1_str = String(wB_1);
+wB_1_strA = wB_1_str[0];
+wB_1_strB = wB_1_str[1];
+
+//ПРОВЕРКА на число > 22
+if (wB_1 > 22) {
+    let wB_1_A_new = Number(wB_1_strA);
+    let wB_1_B_new = Number(wB_1_strB);
+    wB_1 = wB_1_A_new + wB_1_B_new;
+} else {
+    document.getElementById("wB_1").innerHTML = wB_1;
+}
+let wB_1_res = wB_1;
+
+//выводим на стр
+document.getElementById("wB_1").innerHTML = wB_1_res;
+
+
+
+
+//ЗОНА МАМЫ 
+let wR_1 = document.getElementById("wR_1");
+wR_1 = tT_1 + moneyR_1;
+
+wR_1_str = String(wR_1);
+wR_1_strA = wR_1_str[0];
+wR_1_strB = wR_1_str[1];
+
+//ПРОВЕРКА на число > 22
+if (wR_1 > 22) {
+    let wR_1_A_new = Number(wR_1_strA);
+    let wR_1_B_new = Number(wR_1_strB);
+    wR_1 = wR_1_A_new + wR_1_B_new;
+} else {
+    document.getElementById("wR_1").innerHTML = wR_1;
+}
+let wR_1_res = wR_1;
+
+//выводим на стр
+document.getElementById("wR_1").innerHTML = wR_1_res;
+
+
+
+
 //Зона комфорта второе
 let comfort2 = document.getElementById("comfort2");
-comfort2 = chL_3 + tT_3 + moneyR_3 + karmaB3;
+comfort2 = mT_1 + wR_1 + + mB_1 + wB_1;
 
 comfort2_str = String(comfort2);
 comfort2_strA = comfort2_str[0];
@@ -670,3 +495,186 @@ let comfort3_res = comfort3;
 
 //выводим на стр
 document.getElementById("comfort3").innerHTML = comfort3_res;
+
+
+
+
+
+//РОДОВОЙ КВАДРАТ
+
+//Зона папы 3
+let mT_3 = document.getElementById("mT_3");
+mT_3 = mT_1 + comfort2;
+
+mT_3_str = String(mT_3);
+mT_3_strA = mT_3_str[0];
+mT_3_strB = mT_3_str[1];
+
+//ПРОВЕРКА на число > 22
+if (mT_3 > 22) {
+    let mT_3_A_new = Number(mT_3_strA);
+    let mT_3_B_new = Number(mT_3_strB);
+    mT_3 = mT_3_A_new + mT_3_B_new;
+} else {
+    document.getElementById("mT_3").innerHTML = mT_3;
+}
+let mT_3_res = mT_3;
+
+//выводим на стр
+document.getElementById("mT_3").innerHTML = mT_3_res;
+
+
+//Зона папы 3
+let mT_2 = document.getElementById("mT_2");
+mT_2 = mT_3 + mT_1;
+
+mT_2_str = String(mT_2);
+mT_2_strA = mT_2_str[0];
+mT_2_strB = mT_2_str[1];
+
+//ПРОВЕРКА на число > 22
+if (mT_2 > 22) {
+    let mT_2_A_new = Number(mT_2_strA);
+    let mT_2_B_new = Number(mT_2_strB);
+    mT_2 = mT_2_A_new + mT_2_B_new;
+} else {
+    document.getElementById("mT_2").innerHTML = mT_2;
+}
+let mT_2_res = mT_2;
+
+//выводим на стр
+document.getElementById("mT_2").innerHTML = mT_2_res;
+
+
+//Мама справа третье
+let wR_3 = document.getElementById("wR_3");
+wR_3 = comfort2 + wR_1;
+
+wR_3_str = String(wR_3);
+wR_3_strA = wR_3_str[0];
+wR_3_strB = wR_3_str[1];
+
+//ПРОВЕРКА на число > 22
+if (wR_3 > 22) {
+    let wR_3_A_new = Number(wR_3_strA);
+    let wR_3_B_new = Number(wR_3_strB);
+    wR_3 = wR_3_A_new + wR_3_B_new;
+} else {
+    document.getElementById("wR_3").innerHTML = wR_3;
+}
+let wR_3_res = wR_3;
+
+//выводим на стр
+document.getElementById("wR_3").innerHTML = wR_3_res;
+
+
+//Мама справа среденее
+let wR_2 = document.getElementById("wR_2");
+wR_2 = wR_3 + wR_1;
+
+wR_2_str = String(wR_2);
+wR_2_strA = wR_2_str[0];
+wR_2_strB = wR_2_str[1];
+
+//ПРОВЕРКА на число > 22
+if (wR_2 > 22) {
+    let wR_2_A_new = Number(wR_2_strA);
+    let wR_2_B_new = Number(wR_2_strB);
+    wR_2 = wR_2_A_new + wR_2_B_new;
+} else {
+    document.getElementById("wR_2").innerHTML = wR_2;
+}
+let wR_2_res = wR_2;
+
+//выводим на стр
+document.getElementById("wR_2").innerHTML = wR_2_res;
+
+//Мама снизу третье
+let wB_3 = document.getElementById("wB_3");
+wB_3 = wB_1 + comfort2;
+
+wB_3_str = String(wB_3);
+wB_3_strA = wB_3_str[0];
+wB_3_strB = wB_3_str[1];
+
+//ПРОВЕРКА на число > 22
+if (wB_3 > 22) {
+    let wB_3_A_new = Number(wB_3_strA);
+    let wB_3_B_new = Number(wB_3_strB);
+    wB_3 = wB_3_A_new + wB_3_B_new;
+} else {
+    document.getElementById("wB_3").innerHTML = wB_3;
+}
+let wB_3_res = wB_3;
+
+//выводим на стр
+document.getElementById("wB_3").innerHTML = wB_3_res;
+
+
+
+//Мама снизу второе
+let wB_2 = document.getElementById("wB_2");
+wB_2 = wB_3 + wB_1;
+
+wB_2_str = String(wB_2);
+wB_2_strA = wB_2_str[0];
+wB_2_strB = wB_2_str[1];
+
+//ПРОВЕРКА на число > 22
+if (wB_2 > 22) {
+    let wB_2_A_new = Number(wB_2_strA);
+    let wB_2_B_new = Number(wB_2_strB);
+    wB_2 = wB_2_A_new + wB_2_B_new;
+} else {
+    document.getElementById("wB_2").innerHTML = wB_2;
+}
+let wB_2_res = wB_2;
+
+//выводим на стр
+document.getElementById("wB_2").innerHTML = wB_2_res;
+
+
+
+//Зона папы низ третий
+let mB_3 = document.getElementById("mB_3");
+mB_3 = comfort2 + mB_1;
+
+mB_3_str = String(mB_3);
+mB_3_strA = mB_3_str[0];
+mB_3_strB = mB_3_str[1];
+
+//ПРОВЕРКА на число > 22
+if (mB_3 > 22) {
+    let mB_3_A_new = Number(mB_3_strA);
+    let mB_3_B_new = Number(mB_3_strB);
+    mB_3 = mB_3_A_new + mB_3_B_new;
+} else {
+    document.getElementById("mB_3").innerHTML = mB_3;
+}
+let mB_3_res = mB_3;
+
+//выводим на стр
+document.getElementById("mB_3").innerHTML = mB_3_res;
+
+
+
+//Зона папы низ среднее
+let mB_2 = document.getElementById("mB_2");
+mB_2 = mB_1 + mB_3;
+
+mB_2_str = String(mB_2);
+mB_2_strA = mB_2_str[0];
+mB_2_strB = mB_2_str[1];
+
+//ПРОВЕРКА на число > 22
+if (mB_2 > 22) {
+    let mB_2_A_new = Number(mB_2_strA);
+    let mB_2_B_new = Number(mB_2_strB);
+    mB_2 = mB_2_A_new + mB_2_B_new;
+} else {
+    document.getElementById("mB_2").innerHTML = mB_2;
+}
+let mB_2_res = mB_2;
+
+//выводим на стр
+document.getElementById("mB_2").innerHTML = mB_2_res;
