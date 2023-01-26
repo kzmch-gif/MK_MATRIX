@@ -1876,3 +1876,371 @@ let y78_5_res = y78_5;
 
 //выводим на стр
 document.getElementById("y78_5").innerHTML = y78_5_res;
+
+
+
+
+
+
+//Карта здоровья
+
+// 1 Сахасрара
+let phisics_1 = document.getElementById("phisics_1");
+let ph_1_res;
+ph_1_res = chL_1;
+
+document.getElementById("phisics_1").innerHTML = ph_1_res;
+
+
+let energy_1 = document.getElementById("energy_1");
+let en_1_res;
+en_1_res = tT_1;
+
+document.getElementById("energy_1").innerHTML = en_1_res;
+
+
+let emotion_1 = document.getElementById("emotion_1");
+let all_1_res;
+all_1_res = ph_1_res + en_1_res;
+
+all_1_res_str = String(all_1_res);
+all_1_res_strA = all_1_res_str[0];
+all_1_res_strB = all_1_res_str[1];
+
+//ПРОВЕРКА на число > 22
+if (all_1_res > 22) {
+    let all_1_res_A_new = Number(all_1_res_strA);
+    let all_1_res_B_new = Number(all_1_res_strB);
+    all_1_res = all_1_res_A_new + all_1_res_B_new;
+} else {
+    document.getElementById("emotion_1").innerHTML = all_1_res;
+}
+let all_1_res_if = all_1_res;
+
+//выводим на стр
+document.getElementById("emotion_1").innerHTML = all_1_res_if;
+
+
+
+// 2 Аджна
+let phisics_2 = document.getElementById("phisics_2");
+let ph_2_res;
+ph_2_res = chL_2;
+
+document.getElementById("phisics_2").innerHTML = ph_2_res;
+
+
+let energy_2 = document.getElementById("energy_2");
+let en_2_res;
+en_2_res = tT_2;
+
+document.getElementById("energy_2").innerHTML = en_2_res;
+
+
+let emotion_2 = document.getElementById("emotion_2");
+let all_2_res;
+all_2_res = ph_2_res + en_2_res;
+
+all_2_res_str = String(all_2_res);
+all_2_res_strA = all_2_res_str[0];
+all_2_res_strB = all_2_res_str[1];
+
+//ПРОВЕРКА на число > 22
+if (all_2_res > 22) {
+    let all_2_res_A_new = Number(all_2_res_strA);
+    let all_2_res_B_new = Number(all_2_res_strB);
+    all_2_res = all_2_res_A_new + all_2_res_B_new;
+} else {
+    document.getElementById("emotion_2").innerHTML = all_2_res;
+}
+let all_2_res_if = all_2_res;
+
+//выводим на стр
+document.getElementById("emotion_2").innerHTML = all_2_res_if;
+
+
+
+// 3 Вішудхa
+let phisics_3 = document.getElementById("phisics_3");
+let ph_3_res;
+ph_3_res = chL_3;
+
+document.getElementById("phisics_3").innerHTML = ph_3_res;
+
+
+let energy_3 = document.getElementById("energy_3");
+let en_3_res;
+en_3_res = tT_3;
+
+document.getElementById("energy_3").innerHTML = en_3_res;
+
+
+let emotion_3 = document.getElementById("emotion_3");
+let all_3_res;
+all_3_res = ph_3_res + en_3_res;
+
+all_3_res_str = String(all_3_res);
+all_3_res_strA = all_3_res_str[0];
+all_3_res_strB = all_3_res_str[1];
+
+//ПРОВЕРКА на число > 22
+if (all_3_res > 22) {
+    let all_3_res_A_new = Number(all_3_res_strA);
+    let all_3_res_B_new = Number(all_3_res_strB);
+    all_3_res = all_3_res_A_new + all_3_res_B_new;
+} else {
+    document.getElementById("emotion_3").innerHTML = all_3_res;
+}
+let all_3_res_if = all_3_res;
+
+//выводим на стр
+document.getElementById("emotion_3").innerHTML = all_3_res_if;
+
+
+
+// 4 Анахата
+let phisics_4 = document.getElementById("phisics_4");
+let ph_4_res;
+ph_4_res = green_left;
+document.getElementById("phisics_4").innerHTML = ph_4_res;
+
+
+let energy_4 = document.getElementById("energy_4");
+let en_4_res;
+en_4_res = green_top;
+
+document.getElementById("energy_4").innerHTML = en_4_res;
+
+
+let emotion_4 = document.getElementById("emotion_4");
+let all_4_res;
+all_4_res = ph_4_res + en_4_res;
+
+all_4_res_str = String(all_4_res);
+all_4_res_strA = all_4_res_str[0];
+all_4_res_strB = all_4_res_str[1];
+
+//ПРОВЕРКА на число > 22
+if (all_4_res > 22) {
+    let all_4_res_A_new = Number(all_4_res_strA);
+    let all_4_res_B_new = Number(all_4_res_strB);
+    all_4_res = all_4_res_A_new + all_4_res_B_new;
+} else {
+    document.getElementById("emotion_4").innerHTML = all_4_res;
+}
+let all_4_res_if = all_4_res;
+
+//выводим на стр
+document.getElementById("emotion_4").innerHTML = all_4_res_if;
+
+
+
+// 5 Маніпура
+let phisics_5 = document.getElementById("phisics_5");
+let ph_5_res;
+ph_5_res = comfort;
+document.getElementById("phisics_5").innerHTML = ph_5_res;
+
+
+let energy_5 = document.getElementById("energy_5");
+let en_5_res;
+en_5_res = comfort;
+
+document.getElementById("energy_5").innerHTML = en_5_res;
+
+
+let emotion_5 = document.getElementById("emotion_5");
+let all_5_res;
+all_5_res = ph_5_res + en_5_res;
+
+all_5_res_str = String(all_5_res);
+all_5_res_strA = all_5_res_str[0];
+all_5_res_strB = all_5_res_str[1];
+
+//ПРОВЕРКА на число > 22
+if (all_5_res > 22) {
+    let all_5_res_A_new = Number(all_5_res_strA);
+    let all_5_res_B_new = Number(all_5_res_strB);
+    all_5_res = all_5_res_A_new + all_5_res_B_new;
+} else {
+    document.getElementById("emotion_5").innerHTML = all_5_res;
+}
+let all_5_res_if = all_5_res;
+
+//выводим на стр
+document.getElementById("emotion_5").innerHTML = all_5_res_if;
+
+
+
+// 6 Свадхістана
+let phisics_6 = document.getElementById("phisics_6");
+let ph_6_res;
+ph_6_res = moneyR_3;
+document.getElementById("phisics_6").innerHTML = ph_6_res;
+
+
+let energy_6 = document.getElementById("energy_6");
+let en_6_res;
+en_6_res = karmaB3;
+
+document.getElementById("energy_6").innerHTML = en_6_res;
+
+
+let emotion_6 = document.getElementById("emotion_6");
+let all_6_res;
+all_6_res = ph_6_res + en_6_res;
+
+all_6_res_str = String(all_6_res);
+all_6_res_strA = all_6_res_str[0];
+all_6_res_strB = all_6_res_str[1];
+
+//ПРОВЕРКА на число > 22
+if (all_6_res > 22) {
+    let all_6_res_A_new = Number(all_6_res_strA);
+    let all_6_res_B_new = Number(all_6_res_strB);
+    all_6_res = all_6_res_A_new + all_6_res_B_new;
+} else {
+    document.getElementById("emotion_6").innerHTML = all_6_res;
+}
+let all_6_res_if = all_6_res;
+
+//выводим на стр
+document.getElementById("emotion_6").innerHTML = all_6_res_if;
+
+
+
+// 7 Муладхара
+let phisics_7 = document.getElementById("phisics_7");
+let ph_7_res;
+ph_7_res = moneyR_1;
+document.getElementById("phisics_7").innerHTML = ph_7_res;
+
+
+let energy_7 = document.getElementById("energy_7");
+let en_7_res;
+en_7_res = karmaB1;
+
+document.getElementById("energy_7").innerHTML = en_7_res;
+
+
+let emotion_7 = document.getElementById("emotion_7");
+let all_7_res;
+all_7_res = ph_7_res + en_7_res;
+
+all_7_res_str = String(all_7_res);
+all_7_res_strA = all_7_res_str[0];
+all_7_res_strB = all_7_res_str[1];
+
+//ПРОВЕРКА на число > 22
+if (all_7_res > 22) {
+    let all_7_res_A_new = Number(all_7_res_strA);
+    let all_7_res_B_new = Number(all_7_res_strB);
+    all_7_res = all_7_res_A_new + all_7_res_B_new;
+} else {
+    document.getElementById("emotion_7").innerHTML = all_7_res;
+}
+let all_7_res_if = all_7_res;
+
+//выводим на стр
+document.getElementById("emotion_7").innerHTML = all_7_res_if;
+
+
+
+// 0 Итог
+let phisics_0 = document.getElementById("phisics_0");
+let ph_0_res;
+ph_0_res = ph_1_res + ph_2_res + ph_3_res + ph_4_res + ph_5_res + ph_6_res + ph_7_res;
+ph_0_res_str = String(ph_0_res);
+ph_0_res_strA = ph_0_res_str[0];
+ph_0_res_strB = ph_0_res_str[1];
+
+//ПРОВЕРКА на число > 22
+if (ph_0_res > 22) {
+    let ph_0_res_A_new = Number(ph_0_res_strA);
+    let ph_0_res_B_new = Number(ph_0_res_strB);
+    ph_0_res = ph_0_res_A_new + ph_0_res_B_new;
+} else {
+    document.getElementById("phisics_0").innerHTML = ph_0_res;
+}
+let ph_0_res_if = ph_0_res;
+
+//выводим на стр
+document.getElementById("phisics_0").innerHTML = ph_0_res_if;
+
+
+let energy_0 = document.getElementById("energy_0");
+let en_0_res;
+en_0_res = en_1_res + en_2_res + en_3_res + en_4_res + en_5_res + en_6_res + en_7_res;
+en_0_res_str = String(en_0_res);
+en_0_res_strA = en_0_res_str[0];
+en_0_res_strB = en_0_res_str[1];
+
+//ПРОВЕРКА на число > 22
+if (en_0_res > 22) {
+    let en_0_res_A_new = Number(en_0_res_strA);
+    let en_0_res_B_new = Number(en_0_res_strB);
+    en_0_res = en_0_res_A_new + en_0_res_B_new;
+} else {
+    document.getElementById("energy_0").innerHTML = en_0_res;
+}
+let en_0_res_if = en_0_res;
+
+//выводим на стр
+document.getElementById("energy_0").innerHTML = en_0_res_if;
+
+
+let emotions_0 = document.getElementById("emotion_0");
+let em_0_res;
+em_0_res = all_1_res + all_2_res + all_3_res + all_4_res + all_5_res + all_6_res + all_7_res;
+em_0_res_str = String(em_0_res);
+em_0_res_strA = em_0_res_str[0];
+em_0_res_strB = em_0_res_str[1];
+
+//ПРОВЕРКА на число > 22
+if (em_0_res > 22) {
+    let em_0_res_A_new = Number(em_0_res_strA);
+    let em_0_res_B_new = Number(em_0_res_strB);
+    em_0_res = em_0_res_A_new + em_0_res_B_new;
+} else {
+    document.getElementById("emotion_0").innerHTML = em_0_res;
+}
+let em_0_res_if = em_0_res;
+
+//выводим на стр
+document.getElementById("emotion_0").innerHTML = em_0_res_if;
+
+
+
+//Программы родовые
+
+let man_pr1 = document.getElementById("man_pr1");
+let man_pr1_res;
+man_pr1_res = mT_1;
+document.getElementById("man_pr1").innerHTML = man_pr1_res;
+
+let man_pr2 = document.getElementById("man_pr2");
+let man_pr2_res;
+man_pr2_res = mB_1;
+document.getElementById("man_pr2").innerHTML = man_pr2_res;
+
+let man_pr3 = document.getElementById("man_pr3");
+let man_pr3_res;
+man_pr3_res = comfort;
+document.getElementById("man_pr3").innerHTML = man_pr3_res;
+
+
+//Женщина
+let woman_pr1 = document.getElementById("woman_pr1");
+let woman_pr1_res;
+woman_pr1_res = wR_1;
+document.getElementById("woman_pr1").innerHTML = woman_pr1_res;
+
+let woman_pr2 = document.getElementById("woman_pr2");
+let woman_pr2_res;
+woman_pr2_res = wB_1;
+document.getElementById("woman_pr2").innerHTML = woman_pr2_res;
+
+let woman_pr3 = document.getElementById("woman_pr3");
+let woman_pr3_res;
+woman_pr3_res = comfort;
+document.getElementById("woman_pr3").innerHTML = woman_pr3_res;
