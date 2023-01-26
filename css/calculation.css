@@ -663,7 +663,7 @@ body {
 
 .matrix-diagram__number {
     position: absolute;
-    font-size: 13px;
+    font-size: 11px;
     z-index: 10;
     min-width: 14px;
     text-align: center;
@@ -970,37 +970,37 @@ body {
 @media only screen and (min-width: 400px) {
     .matrix-diagram__number.-position-f4 {
         top: 21.1%;
-        left: 11.1%;
+        left: 11.5%;
     }
 
     .matrix-diagram__number.-position-f2 {
         top: 24.8%;
-        left: 9.7%;
+        left: 10.2%;
     }
 
     .matrix-diagram__number.-position-f3 {
         top: 28%;
-        left: 8.2%;
+        left: 8.6%;
     }
 
     .matrix-diagram__number.-position-f1 {
         top: 31.2%;
-        left: 6.8%;
+        left: 7.0%;
     }
 
     .matrix-diagram__number.-position-a6 {
         top: 34.4%;
-        left: 5.6%;
+        left: 5.9%;
     }
 
     .matrix-diagram__number.-position-a4 {
         top: 37.7%;
-        left: 4.5%;
+        left: 4.7%;
     }
 
     .matrix-diagram__number.-position-a5 {
         top: 40.8%;
-        left: 3.2%;
+        left: 3.7%;
     }
 
     .matrix-diagram__number.-position-t7 {

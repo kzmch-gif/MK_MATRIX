@@ -25,9 +25,6 @@ moneyR_1 = year;
 document.getElementById("moneyR_1").innerHTML = year;
 
 
-
-
-
 //ЗОНА КАРМЫ
 let karmaB1 = document.getElementById("karmaB1");
 karmaB1 = day + month + year;
@@ -678,3 +675,1204 @@ let mB_2_res = mB_2;
 
 //выводим на стр
 document.getElementById("mB_2").innerHTML = mB_2_res;
+
+
+
+
+
+
+
+// ВЫЧИСЛЕНИЯ АРКАНОВ ГОДА
+
+//До 10 лет
+let y5 = document.getElementById("y5");
+y5 = mT_1 + chL_1;
+
+y5_str = String(y5);
+y5_strA = y5_str[0];
+y5_strB = y5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y5 > 22) {
+    let y5_A_new = Number(y5_strA);
+    let y5_B_new = Number(y5_strB);
+    y5 = y5_A_new + y5_B_new;
+} else {
+    document.getElementById("y5").innerHTML = y5;
+}
+let y5_res = y5;
+
+//выводим на стр
+document.getElementById("y5").innerHTML = y5_res;
+
+
+
+let y2_5 = document.getElementById("y2_5");
+y2_5 = y5 + day;
+
+y2_5_str = String(y2_5);
+y2_5_strA = y2_5_str[0];
+y2_5_strB = y2_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y2_5 > 22) {
+    let y2_5_A_new = Number(y2_5_strA);
+    let y2_5_B_new = Number(y2_5_strB);
+    y2_5 = y2_5_A_new + y2_5_B_new;
+} else {
+    document.getElementById("y2_5").innerHTML = y2_5;
+}
+let y2_5_res = y2_5;
+
+//выводим на стр
+document.getElementById("y2_5").innerHTML = y2_5_res;
+
+
+let y1 = document.getElementById("y1");
+y1 = y2_5 + day;
+
+y1_str = String(y1);
+y1_strA = y1_str[0];
+y1_strB = y1_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y1 > 22) {
+    let y1_A_new = Number(y1_strA);
+    let y1_B_new = Number(y1_strB);
+    y1 = y1_A_new + y1_B_new;
+} else {
+    document.getElementById("y1").innerHTML = y1;
+}
+let y1_res = y1;
+
+//выводим на стр
+document.getElementById("y1").innerHTML = y1_res;
+
+
+let y3_5 = document.getElementById("y3_5");
+y3_5 = y2_5 + y5;
+
+y3_5_str = String(y3_5);
+y3_5_strA = y3_5_str[0];
+y3_5_strB = y3_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y3_5 > 22) {
+    let y3_5_A_new = Number(y3_5_strA);
+    let y3_5_B_new = Number(y3_5_strB);
+    y3_5 = y3_5_A_new + y3_5_B_new;
+} else {
+    document.getElementById("y3_5").innerHTML = y3_5;
+}
+let y3_5_res = y3_5;
+
+//выводим на стр
+document.getElementById("y3_5").innerHTML = y3_5_res;
+
+
+let y7_5 = document.getElementById("y7_5");
+y7_5 = mT_1 + y5;
+
+y7_5_str = String(y7_5);
+y7_5_strA = y7_5_str[0];
+y7_5_strB = y7_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y7_5 > 22) {
+    let y7_5_A_new = Number(y7_5_strA);
+    let y7_5_B_new = Number(y7_5_strB);
+    y7_5 = y7_5_A_new + y7_5_B_new;
+} else {
+    document.getElementById("y7_5").innerHTML = y7_5;
+}
+let y7_5_res = y7_5;
+
+//выводим на стр
+document.getElementById("y7_5").innerHTML = y7_5_res;
+
+
+let y6 = document.getElementById("y6");
+y6 = y7_5 + y5;
+
+y6_str = String(y6);
+y6_strA = y6_str[0];
+y6_strB = y6_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y6 > 22) {
+    let y6_A_new = Number(y6_strA);
+    let y6_B_new = Number(y6_strB);
+    y6 = y6_A_new + y6_B_new;
+} else {
+    document.getElementById("y6").innerHTML = y6;
+}
+let y6_res = y6;
+
+//выводим на стр
+document.getElementById("y6").innerHTML = y6_res;
+
+
+
+let y8_5 = document.getElementById("y8_5");
+y8_5 = y7_5 + mT_1;
+
+y8_5_str = String(y8_5);
+y8_5_strA = y8_5_str[0];
+y8_5_strB = y8_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y8_5 > 22) {
+    let y8_5_A_new = Number(y8_5_strA);
+    let y8_5_B_new = Number(y8_5_strB);
+    y8_5 = y8_5_A_new + y8_5_B_new;
+} else {
+    document.getElementById("y8_5").innerHTML = y8_5;
+}
+let y8_5_res = y8_5;
+
+//выводим на стр
+document.getElementById("y8_5").innerHTML = y8_5_res;
+
+
+
+//До 20 лет
+let y15 = document.getElementById("y15");
+y15 = tT_1 + mT_1;
+
+y15_str = String(y15);
+y15_strA = y15_str[0];
+y15_strB = y15_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y15 > 22) {
+    let y15_A_new = Number(y15_strA);
+    let y15_B_new = Number(y15_strB);
+    y15 = y15_A_new + y15_B_new;
+} else {
+    document.getElementById("y15").innerHTML = y15;
+}
+let y15_res = y15;
+
+//выводим на стр
+document.getElementById("y15").innerHTML = y15_res;
+
+
+let y12_5 = document.getElementById("y12_5");
+y12_5 = y15 + mT_1;
+
+y12_5_str = String(y12_5);
+y12_5_strA = y12_5_str[0];
+y12_5_strB = y12_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y12_5 > 22) {
+    let y12_5_A_new = Number(y12_5_strA);
+    let y12_5_B_new = Number(y12_5_strB);
+    y12_5 = y12_5_A_new + y12_5_B_new;
+} else {
+    document.getElementById("y12_5").innerHTML = y12_5;
+}
+let y12_5_res = y12_5;
+
+//выводим на стр
+document.getElementById("y12_5").innerHTML = y12_5_res;
+
+
+let y11 = document.getElementById("y11");
+y11 = y12_5 + mT_1;
+
+y11_str = String(y11);
+y11_strA = y11_str[0];
+y11_strB = y11_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y11 > 22) {
+    let y11_A_new = Number(y11_strA);
+    let y11_B_new = Number(y11_strB);
+    y11 = y11_A_new + y11_B_new;
+} else {
+    document.getElementById("y11").innerHTML = y11;
+}
+let y11_res = y11;
+
+//выводим на стр
+document.getElementById("y11").innerHTML = y11_res;
+
+
+let y13_5 = document.getElementById("y13_5");
+y13_5 = y12_5 + y15;
+
+y13_5_str = String(y13_5);
+y13_5_strA = y13_5_str[0];
+y13_5_strB = y13_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y13_5 > 22) {
+    let y13_5_A_new = Number(y13_5_strA);
+    let y13_5_B_new = Number(y13_5_strB);
+    y13_5 = y13_5_A_new + y13_5_B_new;
+} else {
+    document.getElementById("y13_5").innerHTML = y13_5;
+}
+let y13_5_res = y13_5;
+
+//выводим на стр
+document.getElementById("y13_5").innerHTML = y13_5_res;
+
+
+let y17_5 = document.getElementById("y17_5");
+y17_5 = tT_1 + y15;
+
+y17_5_str = String(y17_5);
+y17_5_strA = y17_5_str[0];
+y17_5_strB = y17_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y17_5 > 22) {
+    let y17_5_A_new = Number(y17_5_strA);
+    let y17_5_B_new = Number(y17_5_strB);
+    y17_5 = y17_5_A_new + y17_5_B_new;
+} else {
+    document.getElementById("y17_5").innerHTML = y17_5;
+}
+let y17_5_res = y17_5;
+
+//выводим на стр
+document.getElementById("y17_5").innerHTML = y17_5_res;
+
+
+let y16 = document.getElementById("y16");
+y16 = y17_5 + y15;
+
+y16_str = String(y16);
+y16_strA = y16_str[0];
+y16_strB = y16_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y16 > 22) {
+    let y16_A_new = Number(y16_strA);
+    let y16_B_new = Number(y16_strB);
+    y16 = y16_A_new + y16_B_new;
+} else {
+    document.getElementById("y16").innerHTML = y16;
+}
+let y16_res = y16;
+
+//выводим на стр
+document.getElementById("y16").innerHTML = y16_res;
+
+
+let y18_5 = document.getElementById("y18_5");
+y18_5 = tT_1 + y17_5;
+
+y18_5_str = String(y18_5);
+y18_5_strA = y18_5_str[0];
+y18_5_strB = y18_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y18_5 > 22) {
+    let y18_5_A_new = Number(y18_5_strA);
+    let y18_5_B_new = Number(y18_5_strB);
+    y18_5 = y18_5_A_new + y18_5_B_new;
+} else {
+    document.getElementById("y18_5").innerHTML = y18_5;
+}
+let y18_5_res = y18_5;
+
+//выводим на стр
+document.getElementById("y18_5").innerHTML = y18_5_res;
+
+
+
+//До 30 лет
+let y25 = document.getElementById("y25");
+y25 = tT_1 + wR_1;
+
+y25_str = String(y25);
+y25_strA = y25_str[0];
+y25_strB = y25_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y25 > 22) {
+    let y25_A_new = Number(y25_strA);
+    let y25_B_new = Number(y25_strB);
+    y25 = y25_A_new + y25_B_new;
+} else {
+    document.getElementById("y25").innerHTML = y25;
+}
+let y25_res = y25;
+
+//выводим на стр
+document.getElementById("y25").innerHTML = y25_res;
+
+
+let y22_5 = document.getElementById("y22_5");
+y22_5 = tT_1 + y25;
+
+y22_5_str = String(y22_5);
+y22_5_strA = y22_5_str[0];
+y22_5_strB = y22_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y22_5 > 22) {
+    let y22_5_A_new = Number(y22_5_strA);
+    let y22_5_B_new = Number(y22_5_strB);
+    y22_5 = y22_5_A_new + y22_5_B_new;
+} else {
+    document.getElementById("y22_5").innerHTML = y22_5;
+}
+let y22_5_res = y22_5;
+
+//выводим на стр
+document.getElementById("y22_5").innerHTML = y22_5_res;
+
+
+let y21 = document.getElementById("y21");
+y21 = tT_1 + y22_5;
+
+y21_str = String(y21);
+y21_strA = y21_str[0];
+y21_strB = y21_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y21 > 22) {
+    let y21_A_new = Number(y21_strA);
+    let y21_B_new = Number(y21_strB);
+    y21 = y21_A_new + y21_B_new;
+} else {
+    document.getElementById("y21").innerHTML = y21;
+}
+let y21_res = y21;
+
+//выводим на стр
+document.getElementById("y21").innerHTML = y21_res;
+
+
+let y23_5 = document.getElementById("y23_5");
+y23_5 = y25 + y22_5;
+
+y23_5_str = String(y23_5);
+y23_5_strA = y23_5_str[0];
+y23_5_strB = y23_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y23_5 > 22) {
+    let y23_5_A_new = Number(y23_5_strA);
+    let y23_5_B_new = Number(y23_5_strB);
+    y23_5 = y23_5_A_new + y23_5_B_new;
+} else {
+    document.getElementById("y23_5").innerHTML = y23_5;
+}
+let y23_5_res = y23_5;
+
+//выводим на стр
+document.getElementById("y23_5").innerHTML = y23_5_res;
+
+
+let y27_5 = document.getElementById("y27_5");
+y27_5 = y25 + wR_1;
+
+y27_5_str = String(y27_5);
+y27_5_strA = y27_5_str[0];
+y27_5_strB = y27_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y27_5 > 22) {
+    let y27_5_A_new = Number(y27_5_strA);
+    let y27_5_B_new = Number(y27_5_strB);
+    y27_5 = y27_5_A_new + y27_5_B_new;
+} else {
+    document.getElementById("y27_5").innerHTML = y27_5;
+}
+let y27_5_res = y27_5;
+
+//выводим на стр
+document.getElementById("y27_5").innerHTML = y27_5_res;
+
+
+let y26 = document.getElementById("y26");
+y26 = y25 + y27_5;
+
+y26_str = String(y26);
+y26_strA = y26_str[0];
+y26_strB = y26_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y26 > 22) {
+    let y26_A_new = Number(y26_strA);
+    let y26_B_new = Number(y26_strB);
+    y26 = y26_A_new + y26_B_new;
+} else {
+    document.getElementById("y26").innerHTML = y26;
+}
+let y26_res = y26;
+
+//выводим на стр
+document.getElementById("y26").innerHTML = y26_res;
+
+
+let y28_5 = document.getElementById("y27_5");
+y28_5 = y27_5 + wR_1;
+
+y28_5_str = String(y28_5);
+y28_5_strA = y28_5_str[0];
+y28_5_strB = y28_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y28_5 > 22) {
+    let y28_5_A_new = Number(y28_5_strA);
+    let y28_5_B_new = Number(y28_5_strB);
+    y28_5 = y28_5_A_new + y28_5_B_new;
+} else {
+    document.getElementById("y28_5").innerHTML = y28_5;
+}
+let y28_5_res = y28_5;
+
+//выводим на стр
+document.getElementById("y28_5").innerHTML = y28_5_res;
+
+
+
+//До 40 лет
+let y35 = document.getElementById("y35");
+y35 = moneyR_1 + wR_1;
+
+y35_str = String(y35);
+y35_strA = y35_str[0];
+y35_strB = y35_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y35 > 22) {
+    let y35_A_new = Number(y35_strA);
+    let y35_B_new = Number(y35_strB);
+    y35 = y35_A_new + y35_B_new;
+} else {
+    document.getElementById("y35").innerHTML = y35;
+}
+let y35_res = y35;
+
+//выводим на стр
+document.getElementById("y35").innerHTML = y35_res;
+
+
+let y32_5 = document.getElementById("y32_5");
+y32_5 = y35 + wR_1;
+
+y32_5_str = String(y32_5);
+y32_5_strA = y32_5_str[0];
+y32_5_strB = y32_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y32_5 > 22) {
+    let y32_5_A_new = Number(y32_5_strA);
+    let y32_5_B_new = Number(y32_5_strB);
+    y32_5 = y32_5_A_new + y32_5_B_new;
+} else {
+    document.getElementById("y32_5").innerHTML = y32_5;
+}
+let y32_5_res = y32_5;
+
+//выводим на стр
+document.getElementById("y32_5").innerHTML = y32_5_res;
+
+
+let y31 = document.getElementById("y31");
+y31 = y32_5 + wR_1;
+
+y31_str = String(y31);
+y31_strA = y31_str[0];
+y31_strB = y31_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y31 > 22) {
+    let y31_A_new = Number(y31_strA);
+    let y31_B_new = Number(y31_strB);
+    y31 = y31_A_new + y31_B_new;
+} else {
+    document.getElementById("y31").innerHTML = y31;
+}
+let y31_res = y31;
+
+//выводим на стр
+document.getElementById("y31").innerHTML = y31_res;
+
+
+let y33_5 = document.getElementById("y33_5");
+y33_5 = y35 + y32_5;
+
+y33_5_str = String(y33_5);
+y33_5_strA = y33_5_str[0];
+y33_5_strB = y33_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y33_5 > 22) {
+    let y33_5_A_new = Number(y33_5_strA);
+    let y33_5_B_new = Number(y33_5_strB);
+    y33_5 = y33_5_A_new + y33_5_B_new;
+} else {
+    document.getElementById("y33_5").innerHTML = y33_5;
+}
+let y33_5_res = y33_5;
+
+//выводим на стр
+document.getElementById("y33_5").innerHTML = y33_5_res;
+
+
+let y37_5 = document.getElementById("y37_5");
+y37_5 = y35 + moneyR_1;
+
+y37_5_str = String(y37_5);
+y37_5_strA = y37_5_str[0];
+y37_5_strB = y37_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y37_5 > 22) {
+    let y37_5_A_new = Number(y37_5_strA);
+    let y37_5_B_new = Number(y37_5_strB);
+    y37_5 = y37_5_A_new + y37_5_B_new;
+} else {
+    document.getElementById("y37_5").innerHTML = y37_5;
+}
+let y37_5_res = y37_5;
+
+//выводим на стр
+document.getElementById("y37_5").innerHTML = y37_5_res;
+
+
+let y36 = document.getElementById("y36");
+y36 = y37_5 + y35;
+
+y36_str = String(y36);
+y36_strA = y36_str[0];
+y36_strB = y36_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y36 > 22) {
+    let y36_A_new = Number(y36_strA);
+    let y36_B_new = Number(y36_strB);
+    y36 = y36_A_new + y36_B_new;
+} else {
+    document.getElementById("y36").innerHTML = y36;
+}
+let y36_res = y36;
+
+//выводим на стр
+document.getElementById("y36").innerHTML = y36_res;
+
+
+let y38_5 = document.getElementById("y38_5");
+y38_5 = y37_5 + moneyR_1;
+
+y38_5_str = String(y38_5);
+y38_5_strA = y38_5_str[0];
+y38_5_strB = y38_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y38_5 > 22) {
+    let y38_5_A_new = Number(y38_5_strA);
+    let y38_5_B_new = Number(y38_5_strB);
+    y38_5 = y38_5_A_new + y38_5_B_new;
+} else {
+    document.getElementById("y38_5").innerHTML = y38_5;
+}
+let y38_5_res = y38_5;
+
+//выводим на стр
+document.getElementById("y38_5").innerHTML = y38_5_res;
+
+
+
+//До 50 лет
+let y45 = document.getElementById("y45");
+y45 = moneyR_1 + mB_1;
+
+y45_str = String(y45);
+y45_strA = y45_str[0];
+y45_strB = y45_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y45 > 22) {
+    let y45_A_new = Number(y45_strA);
+    let y45_B_new = Number(y45_strB);
+    y45 = y45_A_new + y45_B_new;
+} else {
+    document.getElementById("y45").innerHTML = y45;
+}
+let y45_res = y45;
+
+//выводим на стр
+document.getElementById("y45").innerHTML = y45_res;
+
+
+let y42_5 = document.getElementById("y42_5");
+y42_5 = moneyR_1 + y45;
+
+y42_5_str = String(y42_5);
+y42_5_strA = y42_5_str[0];
+y42_5_strB = y42_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y42_5 > 22) {
+    let y42_5_A_new = Number(y42_5_strA);
+    let y42_5_B_new = Number(y42_5_strB);
+    y42_5 = y42_5_A_new + y42_5_B_new;
+} else {
+    document.getElementById("y42_5").innerHTML = y42_5;
+}
+let y42_5_res = y42_5;
+
+//выводим на стр
+document.getElementById("y42_5").innerHTML = y42_5_res;
+
+
+let y41 = document.getElementById("y41");
+y41 = moneyR_1 + y42_5;
+
+y41_str = String(y41);
+y41_strA = y41_str[0];
+y41_strB = y41_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y41 > 22) {
+    let y41_A_new = Number(y41_strA);
+    let y41_B_new = Number(y41_strB);
+    y41 = y41_A_new + y41_B_new;
+} else {
+    document.getElementById("y41").innerHTML = y41;
+}
+let y41_res = y41;
+
+//выводим на стр
+document.getElementById("y41").innerHTML = y41_res;
+
+
+let y43_5 = document.getElementById("y43_5");
+y43_5 = y42_5 + y45;
+
+y43_5_str = String(y43_5);
+y43_5_strA = y43_5_str[0];
+y43_5_strB = y43_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y43_5 > 22) {
+    let y43_5_A_new = Number(y43_5_strA);
+    let y43_5_B_new = Number(y43_5_strB);
+    y43_5 = y43_5_A_new + y43_5_B_new;
+} else {
+    document.getElementById("y43_5").innerHTML = y43_5;
+}
+let y43_5_res = y43_5;
+
+//выводим на стр
+document.getElementById("y43_5").innerHTML = y43_5_res;
+
+
+let y47_5 = document.getElementById("y47_5");
+y47_5 = mB_1 + y45;
+
+y47_5_str = String(y47_5);
+y47_5_strA = y47_5_str[0];
+y47_5_strB = y47_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y47_5 > 22) {
+    let y47_5_A_new = Number(y47_5_strA);
+    let y47_5_B_new = Number(y47_5_strB);
+    y47_5 = y47_5_A_new + y47_5_B_new;
+} else {
+    document.getElementById("y47_5").innerHTML = y47_5;
+}
+let y47_5_res = y47_5;
+
+//выводим на стр
+document.getElementById("y47_5").innerHTML = y47_5_res;
+
+
+let y46 = document.getElementById("y46");
+y46 = y45 + y47_5;
+
+y46_str = String(y46);
+y46_strA = y46_str[0];
+y46_strB = y46_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y46 > 22) {
+    let y46_A_new = Number(y46_strA);
+    let y46_B_new = Number(y46_strB);
+    y46 = y46_A_new + y46_B_new;
+} else {
+    document.getElementById("y46").innerHTML = y46;
+}
+let y46_res = y46;
+
+//выводим на стр
+document.getElementById("y46").innerHTML = y46_res;
+
+
+let y48_5 = document.getElementById("y48_5");
+y48_5 = mB_1 + y47_5;
+
+y48_5_str = String(y48_5);
+y48_5_strA = y48_5_str[0];
+y48_5_strB = y48_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y48_5 > 22) {
+    let y48_5_A_new = Number(y48_5_strA);
+    let y48_5_B_new = Number(y48_5_strB);
+    y48_5 = y48_5_A_new + y48_5_B_new;
+} else {
+    document.getElementById("y48_5").innerHTML = y48_5;
+}
+let y48_5_res = y48_5;
+
+//выводим на стр
+document.getElementById("y48_5").innerHTML = y48_5_res;
+
+
+
+//До 60 лет
+let y55 = document.getElementById("y55");
+y55 = karmaB1 + mB_1;
+
+y55_str = String(y55);
+y55_strA = y55_str[0];
+y55_strB = y55_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y55 > 22) {
+    let y55_A_new = Number(y55_strA);
+    let y55_B_new = Number(y55_strB);
+    y55 = y55_A_new + y55_B_new;
+} else {
+    document.getElementById("y55").innerHTML = y55;
+}
+let y55_res = y55;
+
+//выводим на стр
+document.getElementById("y55").innerHTML = y55_res;
+
+
+let y52_5 = document.getElementById("y52_5");
+y52_5 = y55 + mB_1;
+
+y52_5_str = String(y52_5);
+y52_5_strA = y52_5_str[0];
+y52_5_strB = y52_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y52_5 > 22) {
+    let y52_5_A_new = Number(y52_5_strA);
+    let y52_5_B_new = Number(y52_5_strB);
+    y52_5 = y52_5_A_new + y52_5_B_new;
+} else {
+    document.getElementById("y52_5").innerHTML = y52_5;
+}
+let y52_5_res = y52_5;
+
+//выводим на стр
+document.getElementById("y52_5").innerHTML = y52_5_res;
+
+
+let y51 = document.getElementById("y51");
+y51 = y52_5 + mB_1;
+
+y51_str = String(y51);
+y51_strA = y51_str[0];
+y51_strB = y51_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y51 > 22) {
+    let y51_A_new = Number(y51_strA);
+    let y51_B_new = Number(y51_strB);
+    y51 = y51_A_new + y51_B_new;
+} else {
+    document.getElementById("y51").innerHTML = y51;
+}
+let y51_res = y51;
+
+//выводим на стр
+document.getElementById("y51").innerHTML = y51_res;
+
+
+let y53_5 = document.getElementById("y53_5");
+y53_5 = y55 + y52_5;
+
+y53_5_str = String(y53_5);
+y53_5_strA = y53_5_str[0];
+y53_5_strB = y53_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y53_5 > 22) {
+    let y53_5_A_new = Number(y53_5_strA);
+    let y53_5_B_new = Number(y53_5_strB);
+    y53_5 = y53_5_A_new + y53_5_B_new;
+} else {
+    document.getElementById("y53_5").innerHTML = y53_5;
+}
+let y53_5_res = y53_5;
+
+//выводим на стр
+document.getElementById("y53_5").innerHTML = y53_5_res;
+
+
+let y57_5 = document.getElementById("y57_5");
+y57_5 = y55 + karmaB1;
+
+y57_5_str = String(y57_5);
+y57_5_strA = y57_5_str[0];
+y57_5_strB = y57_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y57_5 > 22) {
+    let y57_5_A_new = Number(y57_5_strA);
+    let y57_5_B_new = Number(y57_5_strB);
+    y57_5 = y57_5_A_new + y57_5_B_new;
+} else {
+    document.getElementById("y57_5").innerHTML = y57_5;
+}
+let y57_5_res = y57_5;
+
+//выводим на стр
+document.getElementById("y57_5").innerHTML = y57_5_res;
+
+
+let y56 = document.getElementById("y56");
+y56 = y55 + y57_5;
+
+y56_str = String(y56);
+y56_strA = y56_str[0];
+y56_strB = y56_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y56 > 22) {
+    let y56_A_new = Number(y56_strA);
+    let y56_B_new = Number(y56_strB);
+    y56 = y56_A_new + y56_B_new;
+} else {
+    document.getElementById("y56").innerHTML = y56;
+}
+let y56_res = y56;
+
+//выводим на стр
+document.getElementById("y56").innerHTML = y56_res;
+
+
+let y58_5 = document.getElementById("y58_5");
+y58_5 = y57_5 + karmaB1;
+
+y58_5_str = String(y58_5);
+y58_5_strA = y58_5_str[0];
+y58_5_strB = y58_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y58_5 > 22) {
+    let y58_5_A_new = Number(y58_5_strA);
+    let y58_5_B_new = Number(y58_5_strB);
+    y58_5 = y58_5_A_new + y58_5_B_new;
+} else {
+    document.getElementById("y58_5").innerHTML = y58_5;
+}
+let y58_5_res = y58_5;
+
+//выводим на стр
+document.getElementById("y58_5").innerHTML = y58_5_res;
+
+
+let y65 = document.getElementById("y65");
+y65 = wB_1 + karmaB1;
+
+y65_str = String(y65);
+y65_strA = y65_str[0];
+y65_strB = y65_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y65 > 22) {
+    let y65_A_new = Number(y65_strA);
+    let y65_B_new = Number(y65_strB);
+    y65 = y65_A_new + y65_B_new;
+} else {
+    document.getElementById("y65").innerHTML = y65;
+}
+let y65_res = y65;
+
+//выводим на стр
+document.getElementById("y65").innerHTML = y65_res;
+
+
+
+let y62_5 = document.getElementById("y62_5");
+y62_5 = y65 + karmaB1;
+
+y62_5_str = String(y62_5);
+y62_5_strA = y62_5_str[0];
+y62_5_strB = y62_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y62_5 > 22) {
+    let y62_5_A_new = Number(y62_5_strA);
+    let y62_5_B_new = Number(y62_5_strB);
+    y62_5 = y62_5_A_new + y62_5_B_new;
+} else {
+    document.getElementById("y62_5").innerHTML = y62_5;
+}
+let y62_5_res = y62_5;
+
+//выводим на стр
+document.getElementById("y62_5").innerHTML = y62_5_res;
+
+
+let y61 = document.getElementById("y61");
+y61 = y62_5 + karmaB1;
+
+y61_str = String(y61);
+y61_strA = y61_str[0];
+y61_strB = y61_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y61 > 22) {
+    let y61_A_new = Number(y61_strA);
+    let y61_B_new = Number(y61_strB);
+    y61 = y61_A_new + y61_B_new;
+} else {
+    document.getElementById("y61").innerHTML = y61;
+}
+let y61_res = y61;
+
+//выводим на стр
+document.getElementById("y61").innerHTML = y61_res;
+
+
+let y63_5 = document.getElementById("y63_5");
+y63_5 = y65 + y62_5;
+
+y63_5_str = String(y63_5);
+y63_5_strA = y63_5_str[0];
+y63_5_strB = y63_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y63_5 > 22) {
+    let y63_5_A_new = Number(y63_5_strA);
+    let y63_5_B_new = Number(y63_5_strB);
+    y63_5 = y63_5_A_new + y63_5_B_new;
+} else {
+    document.getElementById("y63_5").innerHTML = y63_5;
+}
+let y63_5_res = y63_5;
+
+//выводим на стр
+document.getElementById("y63_5").innerHTML = y63_5_res;
+
+
+let y67_5 = document.getElementById("y67_5");
+y67_5 = y65 + wB_1;
+
+y67_5_str = String(y67_5);
+y67_5_strA = y67_5_str[0];
+y67_5_strB = y67_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y67_5 > 22) {
+    let y67_5_A_new = Number(y67_5_strA);
+    let y67_5_B_new = Number(y67_5_strB);
+    y67_5 = y67_5_A_new + y67_5_B_new;
+} else {
+    document.getElementById("y67_5").innerHTML = y67_5;
+}
+let y67_5_res = y67_5;
+
+//выводим на стр
+document.getElementById("y67_5").innerHTML = y67_5_res;
+
+
+let y66 = document.getElementById("y66");
+y66 = y67_5 + y65;
+
+y66_str = String(y66);
+y66_strA = y66_str[0];
+y66_strB = y66_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y66 > 22) {
+    let y66_A_new = Number(y66_strA);
+    let y66_B_new = Number(y66_strB);
+    y66 = y66_A_new + y66_B_new;
+} else {
+    document.getElementById("y66").innerHTML = y66;
+}
+let y66_res = y66;
+
+//выводим на стр
+document.getElementById("y66").innerHTML = y66_res;
+
+
+let y68_5 = document.getElementById("y68_5");
+y68_5 = y67_5 + wB_1;
+
+y68_5_str = String(y68_5);
+y68_5_strA = y68_5_str[0];
+y68_5_strB = y68_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y68_5 > 22) {
+    let y68_5_A_new = Number(y68_5_strA);
+    let y68_5_B_new = Number(y68_5_strB);
+    y68_5 = y68_5_A_new + y68_5_B_new;
+} else {
+    document.getElementById("y68_5").innerHTML = y68_5;
+}
+let y68_5_res = y68_5;
+
+//выводим на стр
+document.getElementById("y68_5").innerHTML = y68_5_res;
+
+
+
+
+//До 80 років
+
+let y75 = document.getElementById("y75");
+y75 = wB_1 + chL_1;
+
+y75_str = String(y75);
+y75_strA = y75_str[0];
+y75_strB = y75_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y75 > 22) {
+    let y75_A_new = Number(y75_strA);
+    let y75_B_new = Number(y75_strB);
+    y75 = y75_A_new + y75_B_new;
+} else {
+    document.getElementById("y75").innerHTML = y75;
+}
+let y75_res = y75;
+
+//выводим на стр
+document.getElementById("y75").innerHTML = y75_res;
+
+
+let y72_5 = document.getElementById("y72_5");
+y72_5 = y75 + wB_1;
+
+y72_5_str = String(y72_5);
+y72_5_strA = y72_5_str[0];
+y72_5_strB = y72_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y72_5 > 22) {
+    let y72_5_A_new = Number(y72_5_strA);
+    let y72_5_B_new = Number(y72_5_strB);
+    y72_5 = y72_5_A_new + y72_5_B_new;
+} else {
+    document.getElementById("y72_5").innerHTML = y72_5;
+}
+let y72_5_res = y72_5;
+
+//выводим на стр
+document.getElementById("y72_5").innerHTML = y72_5_res;
+
+
+let y71 = document.getElementById("y71");
+y71 = wB_1 + y72_5;
+
+y71_str = String(y71);
+y71_strA = y71_str[0];
+y71_strB = y71_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y71 > 22) {
+    let y71_A_new = Number(y71_strA);
+    let y71_B_new = Number(y71_strB);
+    y71 = y71_A_new + y71_B_new;
+} else {
+    document.getElementById("y71").innerHTML = y71;
+}
+let y71_res = y71;
+
+//выводим на стр
+document.getElementById("y71").innerHTML = y71_res;
+
+
+let y73_5 = document.getElementById("y73_5");
+y73_5 = y75 + y72_5;
+
+y73_5_str = String(y73_5);
+y73_5_strA = y73_5_str[0];
+y73_5_strB = y73_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y73_5 > 22) {
+    let y73_5_A_new = Number(y73_5_strA);
+    let y73_5_B_new = Number(y73_5_strB);
+    y73_5 = y73_5_A_new + y73_5_B_new;
+} else {
+    document.getElementById("y73_5").innerHTML = y73_5;
+}
+let y73_5_res = y73_5;
+
+//выводим на стр
+document.getElementById("y73_5").innerHTML = y73_5_res;
+
+
+let y77_5 = document.getElementById("y77_5");
+y77_5 = y75 + chL_1;
+
+y77_5_str = String(y77_5);
+y77_5_strA = y77_5_str[0];
+y77_5_strB = y77_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y77_5 > 22) {
+    let y77_5_A_new = Number(y77_5_strA);
+    let y77_5_B_new = Number(y77_5_strB);
+    y77_5 = y77_5_A_new + y77_5_B_new;
+} else {
+    document.getElementById("y77_5").innerHTML = y77_5;
+}
+let y77_5_res = y77_5;
+
+//выводим на стр
+document.getElementById("y77_5").innerHTML = y77_5_res;
+
+
+let y76 = document.getElementById("y76");
+y76 = y77_5 + y75;
+
+y76_str = String(y76);
+y76_strA = y76_str[0];
+y76_strB = y76_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y76 > 22) {
+    let y76_A_new = Number(y76_strA);
+    let y76_B_new = Number(y76_strB);
+    y76 = y76_A_new + y76_B_new;
+} else {
+    document.getElementById("y76").innerHTML = y76;
+}
+let y76_res = y76;
+
+//выводим на стр
+document.getElementById("y76").innerHTML = y76_res;
+
+
+let y78_5 = document.getElementById("y78_5");
+y78_5 = y77_5 + chL_1;
+
+y78_5_str = String(y78_5);
+y78_5_strA = y78_5_str[0];
+y78_5_strB = y78_5_str[1];
+
+//ПРОВЕРКА на число > 22
+if (y78_5 > 22) {
+    let y78_5_A_new = Number(y78_5_strA);
+    let y78_5_B_new = Number(y78_5_strB);
+    y78_5 = y78_5_A_new + y78_5_B_new;
+} else {
+    document.getElementById("y78_5").innerHTML = y78_5;
+}
+let y78_5_res = y78_5;
+
+//выводим на стр
+document.getElementById("y78_5").innerHTML = y78_5_res;
