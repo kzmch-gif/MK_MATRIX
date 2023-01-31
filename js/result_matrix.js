@@ -11,7 +11,6 @@ document.getElementById("chL_1").innerHTML = day;
 
 
 
-
 //зона талантов
 let tT_1 = document.getElementById("tT_1");
 tT_1 = month;

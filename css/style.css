@@ -496,9 +496,8 @@ body {
     }
 
     .logotype_block {
-        /* margin-bottom: 14px; */
         position: absolute;
-        top: 18%;
+        top: 11%;
     }
 
     .calculate-planet-img {
@@ -554,4 +553,150 @@ body {
 
 .form-sex-block {
     margin-bottom: 10px;
+}
+
+
+@media (max-width:821px) {
+    .calculate-planet-img {
+        position: relative;
+        z-index: 1;
+        right: 10%;
+        width: 111%;
+    }
+
+    .logotype-nav {
+        text-align: center;
+        letter-spacing: 0.18em;
+        color: #000000;
+        font-size: 26px;
+        padding: 0 16px;
+    }
+
+    .soul-matrix-span {
+        position: absolute;
+        font-size: 10px;
+        width: fit-content;
+        font-weight: 300;
+        margin-left: 30px;
+        letter-spacing: 2px;
+        left: 20px;
+        top: 31px;
+    }
+
+    .logotype-nav::before {
+        content: '';
+        position: absolute;
+        background-image: url(../img/stars.png);
+        width: 109%;
+        height: 189%;
+        background-size: cover;
+        left: -11px;
+        top: -44%;
+    }
+
+    .item-nav {
+        margin: 0 9px;
+    }
+
+    .nav-link-header {
+        font-size: 12.5px;
+    }
+
+    .main-block {
+        padding-top: 150px;
+        background-image: url(../img/round_blur.png);
+        background-repeat: no-repeat;
+        height: 620px;
+        background-position: center;
+        background-size: 75%;
+    }
+
+
+    .another-type-h5 {
+        width: 195px;
+        margin: auto;
+    }
+
+    .line {
+        border: 0.5px solid #000000;
+        width: 18px;
+    }
+
+    .row-bottom-when-need {
+        margin-top: 25px !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .span-colauto-when {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    .col-autoo {
+        flex: 0 0 auto;
+        width: 145px;
+        /* margin-right: 18px; */
+        position: relative;
+        left: 0px;
+    }
+
+    .contacts-h1 {
+        font-size: 32px;
+    }
+}
+
+.slick-prev {
+    display: none !important;
+}
+
+.slick-next {
+    display: none !important;
+}
+
+.slick-list {
+    text-align: center;
+}
+
+.slick-slider {
+    margin-top: 30px;
+
+}
+
+.soon-slider {
+    font-size: 13px;
+}
+
+
+@media (max-width:415px) {
+    .main-block {
+        padding-top: 170px;
+        background-image: url(../img/round_blur.png);
+        background-repeat: no-repeat;
+        height: 620px;
+        background-position: 0px 100px;
+        background-size: 99%;
+    }
+
+    .row-auto-small-reverse {
+        justify-content: unset;
+    }
+
+    .insta-pic {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 391px) {
+    .matrix-choose-span {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .span-social {
+        font-size: 14px;
+
+    }
 }
