@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Матриця долі з расшифровкою</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./img/Internet.png" type="image/x-icon">
+    <title>Розбір матриці долі</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex justify-content-center header">
+            <div class="">
+                <ul class="nav nav-pills">
+                    <li class="nav-item item-nav"><a href="#" class=" nav-link-header"
+                            aria-current="page">[навчання]</a></li>
+                    <li class="nav-item item-nav"><a href="#" class=" nav-link-header">[розрахувати матрицю]</a>
+                    </li>
+                    <li class="nav-item logotype_block"><a href="index.html" class="logotype-nav">SMATRIX
+                            <span class="soul-matrix-span">Soul of Matrix</span>
+                        </a></li>
+                    <li class="nav-item item-nav"><a href="#" class=" nav-link-header">[про метод]</a></li>
+                    <li class="nav-item item-nav"><a href="#" class=" nav-link-header">[контакти]</a></li>
+                </ul>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div class="container">
+            <div class="main-block">
+                <div class="main-block-matrix">
+                    <div class="main-block-h1">
+                        <h1 class="main-block-matrix-h1">Розрахувати матрицю долі</h1>
+                    </div>
+                    <p class="main-block-matrix-p">з докладним розшифруванням</p>
+                    <div class="block-matrix-choose">
+                        <div class="partner-block-matrix-choose">
+                            <div class="partner-matrix-choose">
+                                <span class="partner-matrix-choose-span matrix-choose-span">сумісність із
+                                    партнером</span>
+                            </div>
+                        </div>
+                        <div class="full-block-matrix-choose">
+                            <div class="full-matrix-choose">
+                                <span class="full-matrix-choose-span matrix-choose-span">з докладним
+                                    розшифруванням</span>
+                            </div>
+                        </div>
+                        <div class="child-block-matrix-choose">
+                            <div class="child-matrix-choose">
+                                <span class="child-matrix-choose-span matrix-choose-span">дитяча матриця долі</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="calculation">
+                <div class="row calculation-row">
+                    <div class="col-md-6">
+                        <div class="free-calculation">
+                            <h1 class="free-calculation-h1">Безкоштовний калькулятор Матриці долі онлайн</h1>
+                        </div>
+                        <div class="form">
+                            <form id="prospects_form" method="POST" class="formValidate">
+                                <div class="form-name-block form-blocks">
+                                    <label for="firstName" class="form-label label-input">Імʼя</label>
+                                    <input type="text" class=" input-form" id="firstName" placeholder="mila" value="">
+                                </div>
+                                <div class="form-data-block form-blocks">
+                                    <label for="firstName" class="form-label label-input">Дата народження</label>
+                                    <input type="text" name="dataBirth" class=" input-form" id="dataBirth" placeholder="" value="">
+                                </div>
+                                <label for="firstName" class="form-label label-input">Стать</label>
+
+                                <div class="form-sex-block form-blocks">
+
+                                    <input type="radio" id="manId" name="male" value="Чоловік" class="radio">
+                                    <label for="man" class="man-label">Чоловік</label><br>
+                                    <input type="radio" id="womanId" name="male" value="Жінка">
+                                    <label for="woman" class="woman-label">Жінка</label><br>
+
+                                </div>
+
+                                <!-- <div class="form-language-block form-blocks">
+                                    <label for="firstName" class="form-label label-input">Мова</label>
+                                    <input type="text" class=" input-form" id="languageId" placeholder="" value="">
+                                </div> -->
+                                
+                                <div class="button-submit-calculation-block">
+                                    <button class="button-submit-calculation " id="fsubmit" type="submit"><span
+                                            class="button-submit-calculation-span">розрахувати</span></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="calculate-planet">
+                            <img class="calculate-planet-img" src="./img/calculate-planet.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="alltypes-matrix">
+                <h1 class="alltypes-matrix-h1">
+                    Інші види розбірів
+                </h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="another-type-col">
+                            <h5 class="another-type-h5">[ РОЗБІР МАТРИЦІ ]</h5>
+                            <img class="another-type-img another-type-moon" src="./img/moon.png" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="another-type-col">
+                            <h5 class="another-type-h5">[ ДИТЯЧА МАТРИЦЯ ]</h5>
+                            <img class="another-type-img another-type-rose" src="./img/rose-planet.png" alt=""
+                                srcset="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="another-type-col">
+                            <h5 class="another-type-h5">[ СУМІСНІСТЬ З ПАРТНЕРОМ ]</h5>
+                            <img class="another-type-img another-type-orange" src="./img/orange-planet.png" alt=""
+                                srcset="">
+                        </div>
+                    </div>
+                </div>
+                <h1 class="alltypes-matrix-h1-soon">
+                  <div class="soon-slider">SOON</div>
+                  <div class="soon-slider">SOON</div>
+                  <div class="soon-slider">SOON</div>
+                  <div class="soon-slider">SOON</div>
+                  <div class="soon-slider">SOON</div>
+                  <div class="soon-slider">SOON</div>
+                  <div class="soon-slider">SOON</div>
+                  <div class="soon-slider">SOON</div>
+                  <div class="soon-slider">SOON</div>
+                  <div class="soon-slider">SOON</div>
+                  <div class="soon-slider">SOON</div>
+                </h1>
+            </div>
+            <div class="when-need-matrix">
+                <h1 class="when-need-matrix-h1">Коли треба робити розбір матриці долі?</h1>
+                <div class="when-need-matrix-block">
+                    <div class="row row-top-when-need">
+                        <div class="col-md-3">
+                            <div class=" row-auto-small">
+                                <div class="col-autoo1">
+                                    <div class="line">
+                                    </div>
+                                </div>
+                                <div class="col-autoo">
+                                    <span class="span-colauto-when">Коли відчуваєш, що сбився зі
+                                        шляху</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class=" row-auto-small">
+                                <div class="col-autoo1">
+                                    <div class="line">
+                                    </div>
+                                </div>
+                                <div class="col-autoo">
+                                    <span class="span-colauto-when">Нема впевненості в собі</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class=" row-auto-small">
+                                <div class="col-autoo1">
+                                    <div class="line">
+                                    </div>
+                                </div>
+                                <div class="col-autoo">
+                                    <span class="span-colauto-when">Хочеш змінити своє життя</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class=" row-auto-small">
+                                <div class="col-autoo1">
+                                    <div class="line">
+                                    </div>
+                                </div>
+                                <div class="col-autoo">
+                                    <span class="span-colauto-when">Хочеш знайти своє призначення</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row-bottom-when-need">
+                        <div class="col-md-3">
+                            <div class=" row-auto-small row-auto-small-reverse">
+                                <div class="col-autoo1">
+                                    <div class="line">
+                                    </div>
+                                </div>
+                                <div class="col-autoo">
+                                    <span class="span-colauto-when">Прагнеш жити життям мрії</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class=" row-auto-small  row-auto-small-reverse">
+                                <div class="col-autoo1">
+                                    <div class="line">
+                                    </div>
+                                </div>
+                                <div class="col-autoo">
+                                    <span class="span-colauto-when">Хочеш зробити круту карʼєру, але не знаєш де</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class=" row-auto-small  row-auto-small-reverse">
+                                <div class="col-autoo1">
+                                    <div class="line">
+                                    </div>
+                                </div>
+                                <div class="col-autoo">
+                                    <span class="span-colauto-when">Не розумієш чому постійно повторюються
+                                        ситуаціі</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="contacts">
+            <h1 class="contacts-h1">КОНТАКТИ</h1>
+            <div class="row row-h1-contacts">
+                <div class=" col-3-center">
+                    <div class="row row-contacts-center">
+                        <div class="col-auto">
+                            <img class="insta-pic" src="./img/instagram.png" alt="" srcset="">
+                        </div>
+                        <div class="col-auto">
+                            <span class="span-social">[inst]</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class=" col-3-center">
+                    <div class="row row-contacts-center">
+                        <div class="col-auto">
+                            <img class="insta-pic" src="./img/youtube.png" alt="" srcset="">
+                        </div>
+                        <div class="col-auto">
+                            <span class="span-social">[youtube]</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class=" col-3-center">
+                    <div class="row row-contacts-center">
+                        <div class="col-auto">
+                            <img class="insta-pic" src="./img/tiktok.png" alt="" srcset="">
+                        </div>
+                        <div class="col-auto">
+                            <span class="span-social">[tiktok]</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class=" col-3-center">
+                    <div class="row row-contacts-center">
+                        <div class="col-auto">
+                            <img class="insta-pic" src="./img/telegram.png" alt="" srcset="">
+                        </div>
+                        <div class="col-auto">
+                            <span class="span-social">[telegram]</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+   
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.7/jquery.inputmask.min.js" integrity="sha512-jTgBq4+dMYh73dquskmUFEgMY5mptcbqSw2rmhOZZSJjZbD2wMt0H5nhqWtleVkyBEjmzid5nyERPSNBafG4GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
