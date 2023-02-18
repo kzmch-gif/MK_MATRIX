@@ -31,7 +31,7 @@ function validation(day_all, month, year, dataBirth, firstName) {
         alert('Введіть будь ласка повний рік')
         result = false;
     }
-debugger
+
     if (firstName == ''){
         alert('Заповніть будь-ласка імʼя')
         result = false;
@@ -49,7 +49,7 @@ form.addEventListener('submit', function (event) {
     let dataBirth = document.getElementById("dataBirth").value;
     let res_male;
     let male = document.querySelector('input[name="male"]:checked').value;
-    debugger
+
     if (male == 'Чоловік' || male == 'Жінка'){
       res_male = male;
     } else {
@@ -107,6 +107,8 @@ form.addEventListener('submit', function (event) {
         localStorage.setItem("year", year);
         localStorage.setItem("firstName", firstName);
         localStorage.setItem("male", res_male);
+        localStorage.setItem("dataBirth", dataBirth);
+ 
 
         window.location.href = './calculation_result.html';
 

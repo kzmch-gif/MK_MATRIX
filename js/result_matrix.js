@@ -3,6 +3,14 @@ let day = Number(localStorage.getItem("day"));
 let month = Number(localStorage.getItem("month"));
 let year = Number(localStorage.getItem("year"));
 
+let firstName = localStorage.getItem("firstName");
+let dataBirth = localStorage.getItem("dataBirth");
+
+//вывод данных имя и год
+document.getElementById("firstNameRes").innerHTML = firstName;
+document.getElementById("birthRes").innerHTML = dataBirth;
+
+
 
 //зона рождения
 let chL_1 = document.getElementById("chL_1");

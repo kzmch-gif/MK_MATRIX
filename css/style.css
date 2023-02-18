@@ -497,7 +497,7 @@ body {
 
     .logotype_block {
         position: absolute;
-        top: 11%;
+        top: 13%;
     }
 
     .calculate-planet-img {
@@ -608,7 +608,7 @@ body {
         background-repeat: no-repeat;
         height: 620px;
         background-position: center;
-        background-size: 75%;
+        background-size: 100%;
     }
 
 
